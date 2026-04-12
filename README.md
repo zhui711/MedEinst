@@ -1,7 +1,4 @@
 # MedEinst
-Official implementation of "MedEinst: Benchmarking the Einstellung Effect in Medical LLMs through Counterfactual Differential Diagnosis"
-
-# MedEinst: Benchmarking the Einstellung Effect in Medical LLMs
 
 [![arXiv](https://img.shields.io/badge/arXiv-2601.06636-b31b1b.svg)](https://arxiv.org/abs/2601.06636)
 [![Dataset](https://img.shields.io/badge/Dataset-HuggingFace-yellow)](https://huggingface.co/datasets/zhui711/MedEinst)
