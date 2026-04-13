@@ -52,6 +52,4 @@ If you use the MedEinst dataset, please also cite the original DDXPlus dataset:
 ```
 
 ## 📧 Contact
-For any questions, feedback, or issues regarding the code or dataset, please feel free to open an issue or contact:
-
-- **Zhongrui Zhu** -[zhongruizhuzz@outlook.com](mailto:zhongruizhuzz@outlook.com)
+**Zhongrui Zhu** -[zhongruizhuzz@outlook.com](mailto:zhongruizhuzz@outlook.com)
