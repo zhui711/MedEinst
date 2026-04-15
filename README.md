@@ -8,7 +8,7 @@ This is the official repository for the paper **"[MedEinst: Benchmarking the Ein
 
 ## 📢 Updates
 - **[Jan 2026]**: The paper is now available on arXiv! 
-- The codebase for **ECR-Agent** (Evidence-based Causal Reasoning Agent) and the complete benchmark dataset are currently undergoing final formatting and will be fully released here shortly. Please `Watch` or `Star` this repository for updates.
+- The codebase for **ECR-Agent** (Evidence-based Causal Reasoning Agent) is currently undergoing final formatting and will be fully released here shortly. Please `Watch` or `Star` this repository for updates.
 
 ## 🗂️ Dataset (MedEinst Benchmark)
 The MedEinst benchmark consists of 5,383 counterfactual pairs of clinical narratives spanning 49 diseases. 
