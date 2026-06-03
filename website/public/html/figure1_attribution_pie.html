@@ -1,0 +1,150 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8">
+        <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+        <style>
+            body { font-family: Arial, sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; background: #fff; }
+            .container { display: flex; width: 100%; max-width: 1200px; justify-content: space-around; }
+            .chart-wrapper { width: 33%; height: 400px; text-align: center; }
+            .chart-div { width: 100%; height: 350px; }
+            h3 { margin: 0; padding: 10px; color: #333; font-size: 18px; }
+            .total-label { font-size: 14px; color: #666; margin-bottom: 10px; }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <!-- Charts will be inserted here -->
+            
+        <div class="chart-wrapper">
+            <h3>deepseek-r1</h3>
+            <div class="total-label">(N=765 Bias Cases)</div>
+            <div id="chart_0" class="chart-div"></div>
+        </div>
+        
+        <div class="chart-wrapper">
+            <h3>gpt-5</h3>
+            <div class="total-label">(N=993 Bias Cases)</div>
+            <div id="chart_1" class="chart-div"></div>
+        </div>
+        
+        <div class="chart-wrapper">
+            <h3>Qwen/QwQ-32B</h3>
+            <div class="total-label">(N=701 Bias Cases)</div>
+            <div id="chart_2" class="chart-div"></div>
+        </div>
+        
+        </div>
+
+        <script>
+            
+        var chart_0 = echarts.init(document.getElementById('chart_0'));
+        var option_0 = {
+            tooltip: { trigger: 'item' },
+            series: [
+                {
+                    name: 'Attribution',
+                    type: 'pie',
+                    radius: ['40%', '70%'],
+                    avoidLabelOverlap: false,
+                    itemStyle: {
+                        borderRadius: 10,
+                        borderColor: '#fff',
+                        borderWidth: 2
+                    },
+                    label: {
+                        show: true,
+                        position: 'outside',
+                        formatter: '{b}',
+                        fontSize: 14,
+                        fontWeight: 'bold'
+                    },
+                    emphasis: {
+                        label: {
+                            show: true,
+                            fontSize: 16,
+                            fontWeight: 'bold'
+                        }
+                    },
+                    labelLine: { show: true },
+                    data: [{"value": 53, "name": "Blindness\n6.9%", "itemStyle": {"color": "#A9A9A9"}}, {"value": 426, "name": "Underthinking\n55.7%", "itemStyle": {"color": "#4A90E2"}}, {"value": 286, "name": "Overthinking\n37.4%", "itemStyle": {"color": "#D0021B"}}]
+                }
+            ]
+        };
+        chart_0.setOption(option_0);
+        
+        var chart_1 = echarts.init(document.getElementById('chart_1'));
+        var option_1 = {
+            tooltip: { trigger: 'item' },
+            series: [
+                {
+                    name: 'Attribution',
+                    type: 'pie',
+                    radius: ['40%', '70%'],
+                    avoidLabelOverlap: false,
+                    itemStyle: {
+                        borderRadius: 10,
+                        borderColor: '#fff',
+                        borderWidth: 2
+                    },
+                    label: {
+                        show: true,
+                        position: 'outside',
+                        formatter: '{b}',
+                        fontSize: 14,
+                        fontWeight: 'bold'
+                    },
+                    emphasis: {
+                        label: {
+                            show: true,
+                            fontSize: 16,
+                            fontWeight: 'bold'
+                        }
+                    },
+                    labelLine: { show: true },
+                    data: [{"value": 349, "name": "Blindness\n35.1%", "itemStyle": {"color": "#A9A9A9"}}, {"value": 426, "name": "Underthinking\n42.9%", "itemStyle": {"color": "#4A90E2"}}, {"value": 218, "name": "Overthinking\n22.0%", "itemStyle": {"color": "#D0021B"}}]
+                }
+            ]
+        };
+        chart_1.setOption(option_1);
+        
+        var chart_2 = echarts.init(document.getElementById('chart_2'));
+        var option_2 = {
+            tooltip: { trigger: 'item' },
+            series: [
+                {
+                    name: 'Attribution',
+                    type: 'pie',
+                    radius: ['40%', '70%'],
+                    avoidLabelOverlap: false,
+                    itemStyle: {
+                        borderRadius: 10,
+                        borderColor: '#fff',
+                        borderWidth: 2
+                    },
+                    label: {
+                        show: true,
+                        position: 'outside',
+                        formatter: '{b}',
+                        fontSize: 14,
+                        fontWeight: 'bold'
+                    },
+                    emphasis: {
+                        label: {
+                            show: true,
+                            fontSize: 16,
+                            fontWeight: 'bold'
+                        }
+                    },
+                    labelLine: { show: true },
+                    data: [{"value": 64, "name": "Blindness\n9.1%", "itemStyle": {"color": "#A9A9A9"}}, {"value": 372, "name": "Underthinking\n53.1%", "itemStyle": {"color": "#4A90E2"}}, {"value": 265, "name": "Overthinking\n37.8%", "itemStyle": {"color": "#D0021B"}}]
+                }
+            ]
+        };
+        chart_2.setOption(option_2);
+        
+        </script>
+    </body>
+    </html>
+    
