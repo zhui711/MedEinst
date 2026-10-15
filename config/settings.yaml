@@ -1,0 +1,55 @@
+# ECR-Agent model, reasoning, and output settings.
+
+# Base diagnostic model. Qwen3-32B requires a user-supplied compatible endpoint.
+api:
+  base_url: null
+  base_url_env: ECR_BASE_URL
+  api_key_env: ECR_BASE_API_KEY
+  model_name: "qwen3-32b"
+  timeout: 120
+  max_retries: 3
+  retry_delay: 2
+
+# Critic for CGME feedback and optional Illness Graph refinement.
+critical_model:
+  base_url: null  # Official OpenAI API; an optional compatible URL may be set here
+  base_url_env: ECR_CRITIC_URL
+  api_key_env: OPENAI_API_KEY
+  model_name: "gpt-4o"  # Configurable by the user
+  timeout: 180
+  max_retries: 2
+
+# Shared embedding model for exemplar retrieval and Online P-node matching.
+embedding:
+  base_url: null  # Official OpenAI API unless overridden
+  base_url_env: ECR_EMBEDDING_URL
+  api_key_env: OPENAI_API_KEY
+  model_name: "text-embedding-3-small"
+  dimension: 1536
+  similarity_threshold: 0.90  # Illness Graph observation matching
+  fuzzy_threshold: 0.80       # Fallback matching
+
+# CGME outputs and refinement limits.
+offline_training:
+  max_critique_retries: 3
+  aggregation_step: 5
+  golden_graph_dir: "../golden_graphs"
+  memory_bank_dir: "../memory_bank"
+  log_dir: "../logs"
+  max_workers: 5
+  batch_aggregation: true
+
+# Paths in this file are relative to config/settings.yaml. CLI paths are relative
+# to the caller's current directory, or may be absolute.
+online_inference:
+  golden_graph_dir: "../golden_graphs"
+  refined_graph_dir: "../golden_graphs_refined"
+  memory_bank_dir: "../memory_bank"
+  output_dir: "../output_online"
+
+phase1:
+  confidence_threshold: 0.90  # 90% confidence threshold for fast path
+
+processing:
+  max_workers: 4
+  batch_size: 10

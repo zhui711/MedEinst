@@ -1,0 +1,393 @@
+{
+  "01": {
+    "name": "Possible NSTEMI / STEMI",
+    "synonyms": [
+      "Myocardial infarction",
+      "STEMI",
+      "NSTEMI",
+      "Acute coronary syndrome"
+    ]
+  },
+  "02": {
+    "name": "Spontaneous rib fracture",
+    "synonyms": [
+      "Spontaneous rib fracture",
+      "Pathologic rib fracture",
+      "Cough-induced rib fracture"
+    ]
+  },
+  "03": {
+    "name": "Pulmonary embolism",
+    "synonyms": [
+      "Pulmonary embolism",
+      "Acute PE",
+      "Venous thromboembolism"
+    ]
+  },
+  "04": {
+    "name": "Pulmonary neoplasm",
+    "synonyms": [
+      "Lung neoplasms",
+      "Bronchogenic carcinoma",
+      "Pulmonary malignancy",
+      "Lung cancer"
+    ]
+  },
+  "05": {
+    "name": "URTI",
+    "synonyms": [
+      "Upper respiratory tract infection",
+      "Acute respiratory infection",
+      "URTI"
+    ]
+  },
+  "06": {
+    "name": "Croup",
+    "synonyms": [
+      "Croup",
+      "Laryngotracheobronchitis",
+      "Acute laryngotracheitis"
+    ]
+  },
+  "07": {
+    "name": "Sarcoidosis",
+    "synonyms": [
+      "Sarcoidosis",
+      "Pulmonary sarcoidosis",
+      "Granulomatous disease"
+    ]
+  },
+  "08": {
+    "name": "HIV (initial infection)",
+    "synonyms": [
+      "Acute HIV infection",
+      "Primary HIV infection",
+      "Acute retroviral syndrome"
+    ]
+  },
+  "09": {
+    "name": "Inguinal hernia",
+    "synonyms": [
+      "Inguinal hernia",
+      "Groin hernia",
+      "Direct inguinal hernia",
+      "Indirect inguinal hernia"
+    ]
+  },
+  "10": {
+    "name": "Spontaneous pneumothorax",
+    "synonyms": [
+      "Spontaneous pneumothorax",
+      "Primary spontaneous pneumothorax",
+      "Secondary spontaneous pneumothorax"
+    ]
+  },
+  "11": {
+    "name": "Bronchospasm / acute asthma exacerbation",
+    "synonyms": [
+      "Acute asthma exacerbation",
+      "Status asthmaticus",
+      "Bronchospasm",
+      "Asthma attack"
+    ]
+  },
+  "12": {
+    "name": "Viral pharyngitis",
+    "synonyms": [
+      "Viral pharyngitis",
+      "Acute pharyngitis",
+      "Sore throat"
+    ]
+  },
+  "13": {
+    "name": "Bronchiolitis",
+    "synonyms": [
+      "Acute bronchiolitis",
+      "Viral bronchiolitis",
+      "RSV bronchiolitis"
+    ]
+  },
+  "14": {
+    "name": "Pancreatic neoplasm",
+    "synonyms": [
+      "Pancreatic cancer",
+      "Pancreatic ductal adenocarcinoma",
+      "Pancreatic neoplasms"
+    ]
+  },
+  "15": {
+    "name": "Guillain-Barré syndrome",
+    "synonyms": [
+      "Guillain-Barré syndrome",
+      "GBS",
+      "Acute inflammatory demyelinating polyneuropathy"
+    ]
+  },
+  "16": {
+    "name": "Chagas",
+    "synonyms": [
+      "Chagas disease",
+      "American trypanosomiasis",
+      "Trypanosoma cruzi infection"
+    ]
+  },
+  "17": {
+    "name": "Allergic sinusitis",
+    "synonyms": [
+      "Allergic rhinosinusitis",
+      "Allergic fungal sinusitis",
+      "Seasonal allergic rhinitis"
+    ]
+  },
+  "18": {
+    "name": "Acute rhinosinusitis",
+    "synonyms": [
+      "Acute rhinosinusitis",
+      "Acute sinusitis",
+      "Acute bacterial rhinosinusitis"
+    ]
+  },
+  "19": {
+    "name": "PSVT",
+    "synonyms": [
+      "Paroxysmal supraventricular tachycardia",
+      "Supraventricular tachycardia",
+      "PSVT",
+      "SVT"
+    ]
+  },
+  "20": {
+    "name": "Panic attack",
+    "synonyms": [
+      "Panic attack",
+      "Panic disorder",
+      "Acute anxiety attack"
+    ]
+  },
+  "21": {
+    "name": "Epiglottitis",
+    "synonyms": [
+      "Acute epiglottitis",
+      "Supraglottitis"
+    ]
+  },
+  "22": {
+    "name": "Bronchiectasis",
+    "synonyms": [
+      "Bronchiectasis",
+      "Non-cystic fibrosis bronchiectasis"
+    ]
+  },
+  "23": {
+    "name": "Bronchitis",
+    "synonyms": [
+      "Acute bronchitis",
+      "Tracheobronchitis"
+    ]
+  },
+  "24": {
+    "name": "Pericarditis",
+    "synonyms": [
+      "Acute pericarditis",
+      "Pericardial inflammation",
+      "Pericardial effusion"
+    ]
+  },
+  "25": {
+    "name": "Acute COPD exacerbation / infection",
+    "synonyms": [
+      "Acute exacerbation of COPD",
+      "AECOPD",
+      "COPD exacerbation"
+    ]
+  },
+  "26": {
+    "name": "Ebola",
+    "synonyms": [
+      "Ebola virus disease",
+      "Ebola hemorrhagic fever",
+      "EVD"
+    ]
+  },
+  "27": {
+    "name": "Chronic rhinosinusitis",
+    "synonyms": [
+      "Chronic rhinosinusitis",
+      "Chronic sinusitis"
+    ]
+  },
+  "28": {
+    "name": "Acute otitis media",
+    "synonyms": [
+      "Acute otitis media",
+      "AOM",
+      "Suppurative otitis media"
+    ]
+  },
+  "29": {
+    "name": "Larygospasm",
+    "synonyms": [
+      "Laryngospasm",
+      "Vocal cord spasm",
+      "Glottic spasm"
+    ]
+  },
+  "30": {
+    "name": "Influenza",
+    "synonyms": [
+      "Influenza",
+      "Seasonal influenza",
+      "Influenza virus infection"
+    ]
+  },
+  "31": {
+    "name": "Stable angina",
+    "synonyms": [
+      "Stable angina",
+      "Chronic stable angina",
+      "Angina pectoris"
+    ]
+  },
+  "32": {
+    "name": "Myasthenia gravis",
+    "synonyms": [
+      "Myasthenia gravis",
+      "MG",
+      "Autoimmune neuromuscular junction disorder"
+    ]
+  },
+  "33": {
+    "name": "Myocarditis",
+    "synonyms": [
+      "Myocarditis",
+      "Inflammatory cardiomyopathy"
+    ]
+  },
+  "34": {
+    "name": "SLE",
+    "synonyms": [
+      "Systemic lupus erythematosus",
+      "SLE",
+      "Lupus nephritis"
+    ]
+  },
+  "35": {
+    "name": "GERD",
+    "synonyms": [
+      "Gastroesophageal reflux disease",
+      "GERD",
+      "Acid reflux"
+    ]
+  },
+  "36": {
+    "name": "Anemia",
+    "synonyms": [
+      "Anemia",
+      "Iron deficiency anemia",
+      "Hemoglobin deficiency"
+    ]
+  },
+  "37": {
+    "name": "Cluster headache",
+    "synonyms": [
+      "Cluster headache",
+      "Trigeminal autonomic cephalalgia",
+      "Histamine headache"
+    ]
+  },
+  "38": {
+    "name": "Localized edema",
+    "synonyms": [
+      "Localized edema",
+      "Peripheral edema",
+      "Angioedema"
+    ]
+  },
+  "39": {
+    "name": "Anaphylaxis",
+    "synonyms": [
+      "Anaphylaxis",
+      "Anaphylactic shock",
+      "Severe allergic reaction"
+    ]
+  },
+  "40": {
+    "name": "Atrial fibrillation",
+    "synonyms": [
+      "Atrial fibrillation",
+      "AFib",
+      "Supraventricular arrhythmia"
+    ]
+  },
+  "41": {
+    "name": "Acute pulmonary edema",
+    "synonyms": [
+      "Acute pulmonary edema",
+      "Cardiogenic pulmonary edema",
+      "Flash pulmonary edema"
+    ]
+  },
+  "42": {
+    "name": "Acute laryngitis",
+    "synonyms": [
+      "Acute laryngitis",
+      "Laryngeal inflammation"
+    ]
+  },
+  "43": {
+    "name": "Acute dystonic reactions",
+    "synonyms": [
+      "Acute dystonia",
+      "Acute dystonic reaction",
+      "Drug-induced dystonia",
+      "Oculogyric crisis"
+    ]
+  },
+  "44": {
+    "name": "Boerhaave",
+    "synonyms": [
+      "Boerhaave syndrome",
+      "Spontaneous esophageal perforation",
+      "Esophageal rupture"
+    ]
+  },
+  "45": {
+    "name": "Pneumonia",
+    "synonyms": [
+      "Pneumonia",
+      "Community-acquired pneumonia",
+      "Bacterial pneumonia"
+    ]
+  },
+  "46": {
+    "name": "Tuberculosis",
+    "synonyms": [
+      "Tuberculosis",
+      "Pulmonary tuberculosis",
+      "Mycobacterium tuberculosis"
+    ]
+  },
+  "47": {
+    "name": "Whooping cough",
+    "synonyms": [
+      "Pertussis",
+      "Whooping cough",
+      "Bordetella pertussis infection"
+    ]
+  },
+  "48": {
+    "name": "Unstable angina",
+    "synonyms": [
+      "Unstable angina",
+      "Acute coronary syndrome"
+    ]
+  },
+  "49": {
+    "name": "Scombroid food poisoning",
+    "synonyms": [
+      "Scombroid food poisoning",
+      "Histamine fish poisoning",
+      "Scombrotoxin poisoning"
+    ]
+  }
+}

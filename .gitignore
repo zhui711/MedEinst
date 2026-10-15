@@ -201,6 +201,21 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
+# ECR-Agent local credentials and generated artifacts
+.env.*
+!.env.example
+golden_graphs/
+golden_graphs_refined/
+golden_graphs_refined_1/
+memory_bank/
+output_online/
+logs/
+embeddings.npy
+memory_bank.json
+*_GG.json
+*_Refined_GG.json
+*.tar.gz
+
 # Marimo
 marimo/_static/
 marimo/_lsp/

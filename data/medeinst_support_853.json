@@ -1,0 +1,5120 @@
+[
+  {
+    "case_id": "case_117655",
+    "type": "trap",
+    "ground_truth_id": "01",
+    "ground_truth": "Possible NSTEMI / STEMI"
+  },
+  {
+    "case_id": "case_128508",
+    "type": "trap",
+    "ground_truth_id": "01",
+    "ground_truth": "Possible NSTEMI / STEMI"
+  },
+  {
+    "case_id": "case_13728",
+    "type": "trap",
+    "ground_truth_id": "01",
+    "ground_truth": "Possible NSTEMI / STEMI"
+  },
+  {
+    "case_id": "case_145448",
+    "type": "trap",
+    "ground_truth_id": "01",
+    "ground_truth": "Possible NSTEMI / STEMI"
+  },
+  {
+    "case_id": "case_146961",
+    "type": "trap",
+    "ground_truth_id": "01",
+    "ground_truth": "Possible NSTEMI / STEMI"
+  },
+  {
+    "case_id": "case_148186",
+    "type": "trap",
+    "ground_truth_id": "01",
+    "ground_truth": "Possible NSTEMI / STEMI"
+  },
+  {
+    "case_id": "case_149508",
+    "type": "trap",
+    "ground_truth_id": "01",
+    "ground_truth": "Possible NSTEMI / STEMI"
+  },
+  {
+    "case_id": "case_149946",
+    "type": "trap",
+    "ground_truth_id": "01",
+    "ground_truth": "Possible NSTEMI / STEMI"
+  },
+  {
+    "case_id": "case_156290",
+    "type": "trap",
+    "ground_truth_id": "01",
+    "ground_truth": "Possible NSTEMI / STEMI"
+  },
+  {
+    "case_id": "case_159240",
+    "type": "trap",
+    "ground_truth_id": "01",
+    "ground_truth": "Possible NSTEMI / STEMI"
+  },
+  {
+    "case_id": "case_160144",
+    "type": "trap",
+    "ground_truth_id": "01",
+    "ground_truth": "Possible NSTEMI / STEMI"
+  },
+  {
+    "case_id": "case_181337",
+    "type": "trap",
+    "ground_truth_id": "01",
+    "ground_truth": "Possible NSTEMI / STEMI"
+  },
+  {
+    "case_id": "case_203037",
+    "type": "trap",
+    "ground_truth_id": "01",
+    "ground_truth": "Possible NSTEMI / STEMI"
+  },
+  {
+    "case_id": "case_206290",
+    "type": "trap",
+    "ground_truth_id": "01",
+    "ground_truth": "Possible NSTEMI / STEMI"
+  },
+  {
+    "case_id": "case_225358",
+    "type": "trap",
+    "ground_truth_id": "01",
+    "ground_truth": "Possible NSTEMI / STEMI"
+  },
+  {
+    "case_id": "case_3299",
+    "type": "trap",
+    "ground_truth_id": "01",
+    "ground_truth": "Possible NSTEMI / STEMI"
+  },
+  {
+    "case_id": "case_36043",
+    "type": "trap",
+    "ground_truth_id": "01",
+    "ground_truth": "Possible NSTEMI / STEMI"
+  },
+  {
+    "case_id": "case_48838",
+    "type": "trap",
+    "ground_truth_id": "01",
+    "ground_truth": "Possible NSTEMI / STEMI"
+  },
+  {
+    "case_id": "case_58142",
+    "type": "trap",
+    "ground_truth_id": "01",
+    "ground_truth": "Possible NSTEMI / STEMI"
+  },
+  {
+    "case_id": "case_9524",
+    "type": "trap",
+    "ground_truth_id": "01",
+    "ground_truth": "Possible NSTEMI / STEMI"
+  },
+  {
+    "case_id": "case_122047",
+    "type": "control",
+    "ground_truth_id": "02",
+    "ground_truth": "Spontaneous rib fracture"
+  },
+  {
+    "case_id": "case_140255",
+    "type": "control",
+    "ground_truth_id": "02",
+    "ground_truth": "Spontaneous rib fracture"
+  },
+  {
+    "case_id": "case_158791",
+    "type": "control",
+    "ground_truth_id": "02",
+    "ground_truth": "Spontaneous rib fracture"
+  },
+  {
+    "case_id": "case_167410",
+    "type": "control",
+    "ground_truth_id": "02",
+    "ground_truth": "Spontaneous rib fracture"
+  },
+  {
+    "case_id": "case_18360",
+    "type": "control",
+    "ground_truth_id": "02",
+    "ground_truth": "Spontaneous rib fracture"
+  },
+  {
+    "case_id": "case_193998",
+    "type": "control",
+    "ground_truth_id": "02",
+    "ground_truth": "Spontaneous rib fracture"
+  },
+  {
+    "case_id": "case_194006",
+    "type": "control",
+    "ground_truth_id": "02",
+    "ground_truth": "Spontaneous rib fracture"
+  },
+  {
+    "case_id": "case_228755",
+    "type": "control",
+    "ground_truth_id": "02",
+    "ground_truth": "Spontaneous rib fracture"
+  },
+  {
+    "case_id": "case_231551",
+    "type": "control",
+    "ground_truth_id": "02",
+    "ground_truth": "Spontaneous rib fracture"
+  },
+  {
+    "case_id": "case_28937",
+    "type": "control",
+    "ground_truth_id": "02",
+    "ground_truth": "Spontaneous rib fracture"
+  },
+  {
+    "case_id": "case_36219",
+    "type": "control",
+    "ground_truth_id": "02",
+    "ground_truth": "Spontaneous rib fracture"
+  },
+  {
+    "case_id": "case_36615",
+    "type": "control",
+    "ground_truth_id": "02",
+    "ground_truth": "Spontaneous rib fracture"
+  },
+  {
+    "case_id": "case_46623",
+    "type": "control",
+    "ground_truth_id": "02",
+    "ground_truth": "Spontaneous rib fracture"
+  },
+  {
+    "case_id": "case_46797",
+    "type": "control",
+    "ground_truth_id": "02",
+    "ground_truth": "Spontaneous rib fracture"
+  },
+  {
+    "case_id": "case_50208",
+    "type": "control",
+    "ground_truth_id": "02",
+    "ground_truth": "Spontaneous rib fracture"
+  },
+  {
+    "case_id": "case_56410",
+    "type": "control",
+    "ground_truth_id": "02",
+    "ground_truth": "Spontaneous rib fracture"
+  },
+  {
+    "case_id": "case_57027",
+    "type": "control",
+    "ground_truth_id": "02",
+    "ground_truth": "Spontaneous rib fracture"
+  },
+  {
+    "case_id": "case_67967",
+    "type": "control",
+    "ground_truth_id": "02",
+    "ground_truth": "Spontaneous rib fracture"
+  },
+  {
+    "case_id": "case_95899",
+    "type": "control",
+    "ground_truth_id": "02",
+    "ground_truth": "Spontaneous rib fracture"
+  },
+  {
+    "case_id": "case_96522",
+    "type": "control",
+    "ground_truth_id": "02",
+    "ground_truth": "Spontaneous rib fracture"
+  },
+  {
+    "case_id": "case_100231",
+    "type": "trap",
+    "ground_truth_id": "03",
+    "ground_truth": "Pulmonary embolism"
+  },
+  {
+    "case_id": "case_10834",
+    "type": "trap",
+    "ground_truth_id": "03",
+    "ground_truth": "Pulmonary embolism"
+  },
+  {
+    "case_id": "case_110866",
+    "type": "trap",
+    "ground_truth_id": "03",
+    "ground_truth": "Pulmonary embolism"
+  },
+  {
+    "case_id": "case_113471",
+    "type": "trap",
+    "ground_truth_id": "03",
+    "ground_truth": "Pulmonary embolism"
+  },
+  {
+    "case_id": "case_115733",
+    "type": "trap",
+    "ground_truth_id": "03",
+    "ground_truth": "Pulmonary embolism"
+  },
+  {
+    "case_id": "case_118052",
+    "type": "trap",
+    "ground_truth_id": "03",
+    "ground_truth": "Pulmonary embolism"
+  },
+  {
+    "case_id": "case_118856",
+    "type": "trap",
+    "ground_truth_id": "03",
+    "ground_truth": "Pulmonary embolism"
+  },
+  {
+    "case_id": "case_145647",
+    "type": "trap",
+    "ground_truth_id": "03",
+    "ground_truth": "Pulmonary embolism"
+  },
+  {
+    "case_id": "case_148414",
+    "type": "trap",
+    "ground_truth_id": "03",
+    "ground_truth": "Pulmonary embolism"
+  },
+  {
+    "case_id": "case_152588",
+    "type": "trap",
+    "ground_truth_id": "03",
+    "ground_truth": "Pulmonary embolism"
+  },
+  {
+    "case_id": "case_157086",
+    "type": "trap",
+    "ground_truth_id": "03",
+    "ground_truth": "Pulmonary embolism"
+  },
+  {
+    "case_id": "case_164048",
+    "type": "trap",
+    "ground_truth_id": "03",
+    "ground_truth": "Pulmonary embolism"
+  },
+  {
+    "case_id": "case_178525",
+    "type": "trap",
+    "ground_truth_id": "03",
+    "ground_truth": "Pulmonary embolism"
+  },
+  {
+    "case_id": "case_222181",
+    "type": "trap",
+    "ground_truth_id": "03",
+    "ground_truth": "Pulmonary embolism"
+  },
+  {
+    "case_id": "case_226567",
+    "type": "trap",
+    "ground_truth_id": "03",
+    "ground_truth": "Pulmonary embolism"
+  },
+  {
+    "case_id": "case_33081",
+    "type": "trap",
+    "ground_truth_id": "03",
+    "ground_truth": "Pulmonary embolism"
+  },
+  {
+    "case_id": "case_52505",
+    "type": "trap",
+    "ground_truth_id": "03",
+    "ground_truth": "Pulmonary embolism"
+  },
+  {
+    "case_id": "case_67821",
+    "type": "trap",
+    "ground_truth_id": "03",
+    "ground_truth": "Pulmonary embolism"
+  },
+  {
+    "case_id": "case_74550",
+    "type": "trap",
+    "ground_truth_id": "03",
+    "ground_truth": "Pulmonary embolism"
+  },
+  {
+    "case_id": "case_92274",
+    "type": "trap",
+    "ground_truth_id": "03",
+    "ground_truth": "Pulmonary embolism"
+  },
+  {
+    "case_id": "case_109815",
+    "type": "trap",
+    "ground_truth_id": "04",
+    "ground_truth": "Pulmonary neoplasm"
+  },
+  {
+    "case_id": "case_116705",
+    "type": "trap",
+    "ground_truth_id": "04",
+    "ground_truth": "Pulmonary neoplasm"
+  },
+  {
+    "case_id": "case_120036",
+    "type": "trap",
+    "ground_truth_id": "04",
+    "ground_truth": "Pulmonary neoplasm"
+  },
+  {
+    "case_id": "case_126503",
+    "type": "trap",
+    "ground_truth_id": "04",
+    "ground_truth": "Pulmonary neoplasm"
+  },
+  {
+    "case_id": "case_135032",
+    "type": "control",
+    "ground_truth_id": "04",
+    "ground_truth": "Pulmonary neoplasm"
+  },
+  {
+    "case_id": "case_145889",
+    "type": "trap",
+    "ground_truth_id": "04",
+    "ground_truth": "Pulmonary neoplasm"
+  },
+  {
+    "case_id": "case_149728",
+    "type": "trap",
+    "ground_truth_id": "04",
+    "ground_truth": "Pulmonary neoplasm"
+  },
+  {
+    "case_id": "case_164085",
+    "type": "trap",
+    "ground_truth_id": "04",
+    "ground_truth": "Pulmonary neoplasm"
+  },
+  {
+    "case_id": "case_184433",
+    "type": "trap",
+    "ground_truth_id": "04",
+    "ground_truth": "Pulmonary neoplasm"
+  },
+  {
+    "case_id": "case_24445",
+    "type": "trap",
+    "ground_truth_id": "04",
+    "ground_truth": "Pulmonary neoplasm"
+  },
+  {
+    "case_id": "case_35154",
+    "type": "control",
+    "ground_truth_id": "04",
+    "ground_truth": "Pulmonary neoplasm"
+  },
+  {
+    "case_id": "case_36122",
+    "type": "trap",
+    "ground_truth_id": "04",
+    "ground_truth": "Pulmonary neoplasm"
+  },
+  {
+    "case_id": "case_37319",
+    "type": "trap",
+    "ground_truth_id": "04",
+    "ground_truth": "Pulmonary neoplasm"
+  },
+  {
+    "case_id": "case_37908",
+    "type": "trap",
+    "ground_truth_id": "04",
+    "ground_truth": "Pulmonary neoplasm"
+  },
+  {
+    "case_id": "case_43869",
+    "type": "trap",
+    "ground_truth_id": "04",
+    "ground_truth": "Pulmonary neoplasm"
+  },
+  {
+    "case_id": "case_45451",
+    "type": "trap",
+    "ground_truth_id": "04",
+    "ground_truth": "Pulmonary neoplasm"
+  },
+  {
+    "case_id": "case_52508",
+    "type": "trap",
+    "ground_truth_id": "04",
+    "ground_truth": "Pulmonary neoplasm"
+  },
+  {
+    "case_id": "case_5431",
+    "type": "trap",
+    "ground_truth_id": "04",
+    "ground_truth": "Pulmonary neoplasm"
+  },
+  {
+    "case_id": "case_62225",
+    "type": "trap",
+    "ground_truth_id": "04",
+    "ground_truth": "Pulmonary neoplasm"
+  },
+  {
+    "case_id": "case_74068",
+    "type": "trap",
+    "ground_truth_id": "04",
+    "ground_truth": "Pulmonary neoplasm"
+  },
+  {
+    "case_id": "case_102949",
+    "type": "trap",
+    "ground_truth_id": "05",
+    "ground_truth": "URTI"
+  },
+  {
+    "case_id": "case_105118",
+    "type": "trap",
+    "ground_truth_id": "05",
+    "ground_truth": "URTI"
+  },
+  {
+    "case_id": "case_106769",
+    "type": "control",
+    "ground_truth_id": "05",
+    "ground_truth": "URTI"
+  },
+  {
+    "case_id": "case_122225",
+    "type": "trap",
+    "ground_truth_id": "05",
+    "ground_truth": "URTI"
+  },
+  {
+    "case_id": "case_12491",
+    "type": "control",
+    "ground_truth_id": "05",
+    "ground_truth": "URTI"
+  },
+  {
+    "case_id": "case_125168",
+    "type": "control",
+    "ground_truth_id": "05",
+    "ground_truth": "URTI"
+  },
+  {
+    "case_id": "case_13525",
+    "type": "trap",
+    "ground_truth_id": "05",
+    "ground_truth": "URTI"
+  },
+  {
+    "case_id": "case_138980",
+    "type": "trap",
+    "ground_truth_id": "05",
+    "ground_truth": "URTI"
+  },
+  {
+    "case_id": "case_142107",
+    "type": "trap",
+    "ground_truth_id": "05",
+    "ground_truth": "URTI"
+  },
+  {
+    "case_id": "case_145054",
+    "type": "control",
+    "ground_truth_id": "05",
+    "ground_truth": "URTI"
+  },
+  {
+    "case_id": "case_14824",
+    "type": "trap",
+    "ground_truth_id": "05",
+    "ground_truth": "URTI"
+  },
+  {
+    "case_id": "case_156624",
+    "type": "trap",
+    "ground_truth_id": "05",
+    "ground_truth": "URTI"
+  },
+  {
+    "case_id": "case_175214",
+    "type": "trap",
+    "ground_truth_id": "05",
+    "ground_truth": "URTI"
+  },
+  {
+    "case_id": "case_178832",
+    "type": "trap",
+    "ground_truth_id": "05",
+    "ground_truth": "URTI"
+  },
+  {
+    "case_id": "case_186354",
+    "type": "trap",
+    "ground_truth_id": "05",
+    "ground_truth": "URTI"
+  },
+  {
+    "case_id": "case_31872",
+    "type": "trap",
+    "ground_truth_id": "05",
+    "ground_truth": "URTI"
+  },
+  {
+    "case_id": "case_35885",
+    "type": "trap",
+    "ground_truth_id": "05",
+    "ground_truth": "URTI"
+  },
+  {
+    "case_id": "case_37320",
+    "type": "control",
+    "ground_truth_id": "05",
+    "ground_truth": "URTI"
+  },
+  {
+    "case_id": "case_39844",
+    "type": "trap",
+    "ground_truth_id": "05",
+    "ground_truth": "URTI"
+  },
+  {
+    "case_id": "case_66820",
+    "type": "trap",
+    "ground_truth_id": "05",
+    "ground_truth": "URTI"
+  },
+  {
+    "case_id": "case_100034",
+    "type": "control",
+    "ground_truth_id": "06",
+    "ground_truth": "Croup"
+  },
+  {
+    "case_id": "case_100271",
+    "type": "control",
+    "ground_truth_id": "06",
+    "ground_truth": "Croup"
+  },
+  {
+    "case_id": "case_107214",
+    "type": "control",
+    "ground_truth_id": "06",
+    "ground_truth": "Croup"
+  },
+  {
+    "case_id": "case_112816",
+    "type": "control",
+    "ground_truth_id": "06",
+    "ground_truth": "Croup"
+  },
+  {
+    "case_id": "case_116977",
+    "type": "control",
+    "ground_truth_id": "06",
+    "ground_truth": "Croup"
+  },
+  {
+    "case_id": "case_121059",
+    "type": "control",
+    "ground_truth_id": "06",
+    "ground_truth": "Croup"
+  },
+  {
+    "case_id": "case_128926",
+    "type": "control",
+    "ground_truth_id": "06",
+    "ground_truth": "Croup"
+  },
+  {
+    "case_id": "case_130919",
+    "type": "control",
+    "ground_truth_id": "06",
+    "ground_truth": "Croup"
+  },
+  {
+    "case_id": "case_150722",
+    "type": "control",
+    "ground_truth_id": "06",
+    "ground_truth": "Croup"
+  },
+  {
+    "case_id": "case_152137",
+    "type": "control",
+    "ground_truth_id": "06",
+    "ground_truth": "Croup"
+  },
+  {
+    "case_id": "case_1759",
+    "type": "control",
+    "ground_truth_id": "06",
+    "ground_truth": "Croup"
+  },
+  {
+    "case_id": "case_188232",
+    "type": "control",
+    "ground_truth_id": "06",
+    "ground_truth": "Croup"
+  },
+  {
+    "case_id": "case_225186",
+    "type": "control",
+    "ground_truth_id": "06",
+    "ground_truth": "Croup"
+  },
+  {
+    "case_id": "case_2486",
+    "type": "control",
+    "ground_truth_id": "06",
+    "ground_truth": "Croup"
+  },
+  {
+    "case_id": "case_373",
+    "type": "control",
+    "ground_truth_id": "06",
+    "ground_truth": "Croup"
+  },
+  {
+    "case_id": "case_57566",
+    "type": "control",
+    "ground_truth_id": "06",
+    "ground_truth": "Croup"
+  },
+  {
+    "case_id": "case_67565",
+    "type": "control",
+    "ground_truth_id": "06",
+    "ground_truth": "Croup"
+  },
+  {
+    "case_id": "case_6790",
+    "type": "control",
+    "ground_truth_id": "06",
+    "ground_truth": "Croup"
+  },
+  {
+    "case_id": "case_84406",
+    "type": "control",
+    "ground_truth_id": "06",
+    "ground_truth": "Croup"
+  },
+  {
+    "case_id": "case_9237",
+    "type": "control",
+    "ground_truth_id": "06",
+    "ground_truth": "Croup"
+  },
+  {
+    "case_id": "case_119762",
+    "type": "control",
+    "ground_truth_id": "07",
+    "ground_truth": "Sarcoidosis"
+  },
+  {
+    "case_id": "case_123970",
+    "type": "control",
+    "ground_truth_id": "07",
+    "ground_truth": "Sarcoidosis"
+  },
+  {
+    "case_id": "case_134441",
+    "type": "control",
+    "ground_truth_id": "07",
+    "ground_truth": "Sarcoidosis"
+  },
+  {
+    "case_id": "case_137472",
+    "type": "control",
+    "ground_truth_id": "07",
+    "ground_truth": "Sarcoidosis"
+  },
+  {
+    "case_id": "case_161138",
+    "type": "control",
+    "ground_truth_id": "07",
+    "ground_truth": "Sarcoidosis"
+  },
+  {
+    "case_id": "case_169627",
+    "type": "control",
+    "ground_truth_id": "07",
+    "ground_truth": "Sarcoidosis"
+  },
+  {
+    "case_id": "case_180158",
+    "type": "control",
+    "ground_truth_id": "07",
+    "ground_truth": "Sarcoidosis"
+  },
+  {
+    "case_id": "case_205177",
+    "type": "control",
+    "ground_truth_id": "07",
+    "ground_truth": "Sarcoidosis"
+  },
+  {
+    "case_id": "case_232079",
+    "type": "control",
+    "ground_truth_id": "07",
+    "ground_truth": "Sarcoidosis"
+  },
+  {
+    "case_id": "case_3065",
+    "type": "control",
+    "ground_truth_id": "07",
+    "ground_truth": "Sarcoidosis"
+  },
+  {
+    "case_id": "case_30900",
+    "type": "control",
+    "ground_truth_id": "07",
+    "ground_truth": "Sarcoidosis"
+  },
+  {
+    "case_id": "case_41729",
+    "type": "control",
+    "ground_truth_id": "07",
+    "ground_truth": "Sarcoidosis"
+  },
+  {
+    "case_id": "case_4299",
+    "type": "control",
+    "ground_truth_id": "07",
+    "ground_truth": "Sarcoidosis"
+  },
+  {
+    "case_id": "case_54953",
+    "type": "control",
+    "ground_truth_id": "07",
+    "ground_truth": "Sarcoidosis"
+  },
+  {
+    "case_id": "case_62255",
+    "type": "control",
+    "ground_truth_id": "07",
+    "ground_truth": "Sarcoidosis"
+  },
+  {
+    "case_id": "case_64207",
+    "type": "control",
+    "ground_truth_id": "07",
+    "ground_truth": "Sarcoidosis"
+  },
+  {
+    "case_id": "case_83466",
+    "type": "control",
+    "ground_truth_id": "07",
+    "ground_truth": "Sarcoidosis"
+  },
+  {
+    "case_id": "case_89552",
+    "type": "control",
+    "ground_truth_id": "07",
+    "ground_truth": "Sarcoidosis"
+  },
+  {
+    "case_id": "case_94773",
+    "type": "control",
+    "ground_truth_id": "07",
+    "ground_truth": "Sarcoidosis"
+  },
+  {
+    "case_id": "case_9881",
+    "type": "control",
+    "ground_truth_id": "07",
+    "ground_truth": "Sarcoidosis"
+  },
+  {
+    "case_id": "case_10546",
+    "type": "trap",
+    "ground_truth_id": "08",
+    "ground_truth": "HIV (initial infection)"
+  },
+  {
+    "case_id": "case_110540",
+    "type": "trap",
+    "ground_truth_id": "08",
+    "ground_truth": "HIV (initial infection)"
+  },
+  {
+    "case_id": "case_139826",
+    "type": "trap",
+    "ground_truth_id": "08",
+    "ground_truth": "HIV (initial infection)"
+  },
+  {
+    "case_id": "case_144366",
+    "type": "trap",
+    "ground_truth_id": "08",
+    "ground_truth": "HIV (initial infection)"
+  },
+  {
+    "case_id": "case_152452",
+    "type": "control",
+    "ground_truth_id": "08",
+    "ground_truth": "HIV (initial infection)"
+  },
+  {
+    "case_id": "case_158949",
+    "type": "control",
+    "ground_truth_id": "08",
+    "ground_truth": "HIV (initial infection)"
+  },
+  {
+    "case_id": "case_176113",
+    "type": "trap",
+    "ground_truth_id": "08",
+    "ground_truth": "HIV (initial infection)"
+  },
+  {
+    "case_id": "case_198259",
+    "type": "trap",
+    "ground_truth_id": "08",
+    "ground_truth": "HIV (initial infection)"
+  },
+  {
+    "case_id": "case_201244",
+    "type": "trap",
+    "ground_truth_id": "08",
+    "ground_truth": "HIV (initial infection)"
+  },
+  {
+    "case_id": "case_23183",
+    "type": "trap",
+    "ground_truth_id": "08",
+    "ground_truth": "HIV (initial infection)"
+  },
+  {
+    "case_id": "case_34148",
+    "type": "trap",
+    "ground_truth_id": "08",
+    "ground_truth": "HIV (initial infection)"
+  },
+  {
+    "case_id": "case_38704",
+    "type": "control",
+    "ground_truth_id": "08",
+    "ground_truth": "HIV (initial infection)"
+  },
+  {
+    "case_id": "case_38872",
+    "type": "trap",
+    "ground_truth_id": "08",
+    "ground_truth": "HIV (initial infection)"
+  },
+  {
+    "case_id": "case_38929",
+    "type": "trap",
+    "ground_truth_id": "08",
+    "ground_truth": "HIV (initial infection)"
+  },
+  {
+    "case_id": "case_39142",
+    "type": "trap",
+    "ground_truth_id": "08",
+    "ground_truth": "HIV (initial infection)"
+  },
+  {
+    "case_id": "case_44725",
+    "type": "trap",
+    "ground_truth_id": "08",
+    "ground_truth": "HIV (initial infection)"
+  },
+  {
+    "case_id": "case_62159",
+    "type": "trap",
+    "ground_truth_id": "08",
+    "ground_truth": "HIV (initial infection)"
+  },
+  {
+    "case_id": "case_68423",
+    "type": "trap",
+    "ground_truth_id": "08",
+    "ground_truth": "HIV (initial infection)"
+  },
+  {
+    "case_id": "case_8178",
+    "type": "trap",
+    "ground_truth_id": "08",
+    "ground_truth": "HIV (initial infection)"
+  },
+  {
+    "case_id": "case_96440",
+    "type": "trap",
+    "ground_truth_id": "08",
+    "ground_truth": "HIV (initial infection)"
+  },
+  {
+    "case_id": "case_10630",
+    "type": "control",
+    "ground_truth_id": "09",
+    "ground_truth": "Inguinal hernia"
+  },
+  {
+    "case_id": "case_116524",
+    "type": "control",
+    "ground_truth_id": "09",
+    "ground_truth": "Inguinal hernia"
+  },
+  {
+    "case_id": "case_124865",
+    "type": "control",
+    "ground_truth_id": "09",
+    "ground_truth": "Inguinal hernia"
+  },
+  {
+    "case_id": "case_157617",
+    "type": "control",
+    "ground_truth_id": "09",
+    "ground_truth": "Inguinal hernia"
+  },
+  {
+    "case_id": "case_220405",
+    "type": "control",
+    "ground_truth_id": "09",
+    "ground_truth": "Inguinal hernia"
+  },
+  {
+    "case_id": "case_30448",
+    "type": "control",
+    "ground_truth_id": "09",
+    "ground_truth": "Inguinal hernia"
+  },
+  {
+    "case_id": "case_38688",
+    "type": "control",
+    "ground_truth_id": "09",
+    "ground_truth": "Inguinal hernia"
+  },
+  {
+    "case_id": "case_46285",
+    "type": "control",
+    "ground_truth_id": "09",
+    "ground_truth": "Inguinal hernia"
+  },
+  {
+    "case_id": "case_51088",
+    "type": "control",
+    "ground_truth_id": "09",
+    "ground_truth": "Inguinal hernia"
+  },
+  {
+    "case_id": "case_52349",
+    "type": "control",
+    "ground_truth_id": "09",
+    "ground_truth": "Inguinal hernia"
+  },
+  {
+    "case_id": "case_56941",
+    "type": "control",
+    "ground_truth_id": "09",
+    "ground_truth": "Inguinal hernia"
+  },
+  {
+    "case_id": "case_61665",
+    "type": "control",
+    "ground_truth_id": "09",
+    "ground_truth": "Inguinal hernia"
+  },
+  {
+    "case_id": "case_68341",
+    "type": "control",
+    "ground_truth_id": "09",
+    "ground_truth": "Inguinal hernia"
+  },
+  {
+    "case_id": "case_68703",
+    "type": "control",
+    "ground_truth_id": "09",
+    "ground_truth": "Inguinal hernia"
+  },
+  {
+    "case_id": "case_109721",
+    "type": "control",
+    "ground_truth_id": "10",
+    "ground_truth": "Spontaneous pneumothorax"
+  },
+  {
+    "case_id": "case_11023",
+    "type": "trap",
+    "ground_truth_id": "10",
+    "ground_truth": "Spontaneous pneumothorax"
+  },
+  {
+    "case_id": "case_113443",
+    "type": "trap",
+    "ground_truth_id": "10",
+    "ground_truth": "Spontaneous pneumothorax"
+  },
+  {
+    "case_id": "case_119657",
+    "type": "control",
+    "ground_truth_id": "10",
+    "ground_truth": "Spontaneous pneumothorax"
+  },
+  {
+    "case_id": "case_119903",
+    "type": "trap",
+    "ground_truth_id": "10",
+    "ground_truth": "Spontaneous pneumothorax"
+  },
+  {
+    "case_id": "case_123266",
+    "type": "control",
+    "ground_truth_id": "10",
+    "ground_truth": "Spontaneous pneumothorax"
+  },
+  {
+    "case_id": "case_13494",
+    "type": "control",
+    "ground_truth_id": "10",
+    "ground_truth": "Spontaneous pneumothorax"
+  },
+  {
+    "case_id": "case_136566",
+    "type": "trap",
+    "ground_truth_id": "10",
+    "ground_truth": "Spontaneous pneumothorax"
+  },
+  {
+    "case_id": "case_155895",
+    "type": "trap",
+    "ground_truth_id": "10",
+    "ground_truth": "Spontaneous pneumothorax"
+  },
+  {
+    "case_id": "case_158814",
+    "type": "trap",
+    "ground_truth_id": "10",
+    "ground_truth": "Spontaneous pneumothorax"
+  },
+  {
+    "case_id": "case_16193",
+    "type": "control",
+    "ground_truth_id": "10",
+    "ground_truth": "Spontaneous pneumothorax"
+  },
+  {
+    "case_id": "case_168900",
+    "type": "trap",
+    "ground_truth_id": "10",
+    "ground_truth": "Spontaneous pneumothorax"
+  },
+  {
+    "case_id": "case_18261",
+    "type": "trap",
+    "ground_truth_id": "10",
+    "ground_truth": "Spontaneous pneumothorax"
+  },
+  {
+    "case_id": "case_18360",
+    "type": "trap",
+    "ground_truth_id": "10",
+    "ground_truth": "Spontaneous pneumothorax"
+  },
+  {
+    "case_id": "case_230824",
+    "type": "control",
+    "ground_truth_id": "10",
+    "ground_truth": "Spontaneous pneumothorax"
+  },
+  {
+    "case_id": "case_3409",
+    "type": "control",
+    "ground_truth_id": "10",
+    "ground_truth": "Spontaneous pneumothorax"
+  },
+  {
+    "case_id": "case_3496",
+    "type": "control",
+    "ground_truth_id": "10",
+    "ground_truth": "Spontaneous pneumothorax"
+  },
+  {
+    "case_id": "case_75722",
+    "type": "control",
+    "ground_truth_id": "10",
+    "ground_truth": "Spontaneous pneumothorax"
+  },
+  {
+    "case_id": "case_76476",
+    "type": "control",
+    "ground_truth_id": "10",
+    "ground_truth": "Spontaneous pneumothorax"
+  },
+  {
+    "case_id": "case_7852",
+    "type": "control",
+    "ground_truth_id": "10",
+    "ground_truth": "Spontaneous pneumothorax"
+  },
+  {
+    "case_id": "case_100776",
+    "type": "control",
+    "ground_truth_id": "11",
+    "ground_truth": "Bronchospasm / acute asthma exacerbation"
+  },
+  {
+    "case_id": "case_107537",
+    "type": "trap",
+    "ground_truth_id": "11",
+    "ground_truth": "Bronchospasm / acute asthma exacerbation"
+  },
+  {
+    "case_id": "case_114911",
+    "type": "trap",
+    "ground_truth_id": "11",
+    "ground_truth": "Bronchospasm / acute asthma exacerbation"
+  },
+  {
+    "case_id": "case_123359",
+    "type": "control",
+    "ground_truth_id": "11",
+    "ground_truth": "Bronchospasm / acute asthma exacerbation"
+  },
+  {
+    "case_id": "case_151817",
+    "type": "control",
+    "ground_truth_id": "11",
+    "ground_truth": "Bronchospasm / acute asthma exacerbation"
+  },
+  {
+    "case_id": "case_171302",
+    "type": "control",
+    "ground_truth_id": "11",
+    "ground_truth": "Bronchospasm / acute asthma exacerbation"
+  },
+  {
+    "case_id": "case_177608",
+    "type": "control",
+    "ground_truth_id": "11",
+    "ground_truth": "Bronchospasm / acute asthma exacerbation"
+  },
+  {
+    "case_id": "case_180133",
+    "type": "control",
+    "ground_truth_id": "11",
+    "ground_truth": "Bronchospasm / acute asthma exacerbation"
+  },
+  {
+    "case_id": "case_186130",
+    "type": "control",
+    "ground_truth_id": "11",
+    "ground_truth": "Bronchospasm / acute asthma exacerbation"
+  },
+  {
+    "case_id": "case_191232",
+    "type": "trap",
+    "ground_truth_id": "11",
+    "ground_truth": "Bronchospasm / acute asthma exacerbation"
+  },
+  {
+    "case_id": "case_192981",
+    "type": "trap",
+    "ground_truth_id": "11",
+    "ground_truth": "Bronchospasm / acute asthma exacerbation"
+  },
+  {
+    "case_id": "case_198747",
+    "type": "trap",
+    "ground_truth_id": "11",
+    "ground_truth": "Bronchospasm / acute asthma exacerbation"
+  },
+  {
+    "case_id": "case_206254",
+    "type": "trap",
+    "ground_truth_id": "11",
+    "ground_truth": "Bronchospasm / acute asthma exacerbation"
+  },
+  {
+    "case_id": "case_31397",
+    "type": "trap",
+    "ground_truth_id": "11",
+    "ground_truth": "Bronchospasm / acute asthma exacerbation"
+  },
+  {
+    "case_id": "case_32235",
+    "type": "trap",
+    "ground_truth_id": "11",
+    "ground_truth": "Bronchospasm / acute asthma exacerbation"
+  },
+  {
+    "case_id": "case_69454",
+    "type": "trap",
+    "ground_truth_id": "11",
+    "ground_truth": "Bronchospasm / acute asthma exacerbation"
+  },
+  {
+    "case_id": "case_79414",
+    "type": "control",
+    "ground_truth_id": "11",
+    "ground_truth": "Bronchospasm / acute asthma exacerbation"
+  },
+  {
+    "case_id": "case_79891",
+    "type": "trap",
+    "ground_truth_id": "11",
+    "ground_truth": "Bronchospasm / acute asthma exacerbation"
+  },
+  {
+    "case_id": "case_86866",
+    "type": "control",
+    "ground_truth_id": "11",
+    "ground_truth": "Bronchospasm / acute asthma exacerbation"
+  },
+  {
+    "case_id": "case_94671",
+    "type": "control",
+    "ground_truth_id": "11",
+    "ground_truth": "Bronchospasm / acute asthma exacerbation"
+  },
+  {
+    "case_id": "case_100589",
+    "type": "control",
+    "ground_truth_id": "12",
+    "ground_truth": "Viral pharyngitis"
+  },
+  {
+    "case_id": "case_103246",
+    "type": "control",
+    "ground_truth_id": "12",
+    "ground_truth": "Viral pharyngitis"
+  },
+  {
+    "case_id": "case_105724",
+    "type": "control",
+    "ground_truth_id": "12",
+    "ground_truth": "Viral pharyngitis"
+  },
+  {
+    "case_id": "case_115278",
+    "type": "control",
+    "ground_truth_id": "12",
+    "ground_truth": "Viral pharyngitis"
+  },
+  {
+    "case_id": "case_130234",
+    "type": "control",
+    "ground_truth_id": "12",
+    "ground_truth": "Viral pharyngitis"
+  },
+  {
+    "case_id": "case_153493",
+    "type": "trap",
+    "ground_truth_id": "12",
+    "ground_truth": "Viral pharyngitis"
+  },
+  {
+    "case_id": "case_161489",
+    "type": "control",
+    "ground_truth_id": "12",
+    "ground_truth": "Viral pharyngitis"
+  },
+  {
+    "case_id": "case_162346",
+    "type": "control",
+    "ground_truth_id": "12",
+    "ground_truth": "Viral pharyngitis"
+  },
+  {
+    "case_id": "case_168360",
+    "type": "trap",
+    "ground_truth_id": "12",
+    "ground_truth": "Viral pharyngitis"
+  },
+  {
+    "case_id": "case_179413",
+    "type": "control",
+    "ground_truth_id": "12",
+    "ground_truth": "Viral pharyngitis"
+  },
+  {
+    "case_id": "case_17976",
+    "type": "trap",
+    "ground_truth_id": "12",
+    "ground_truth": "Viral pharyngitis"
+  },
+  {
+    "case_id": "case_186641",
+    "type": "control",
+    "ground_truth_id": "12",
+    "ground_truth": "Viral pharyngitis"
+  },
+  {
+    "case_id": "case_21524",
+    "type": "control",
+    "ground_truth_id": "12",
+    "ground_truth": "Viral pharyngitis"
+  },
+  {
+    "case_id": "case_32766",
+    "type": "control",
+    "ground_truth_id": "12",
+    "ground_truth": "Viral pharyngitis"
+  },
+  {
+    "case_id": "case_48689",
+    "type": "control",
+    "ground_truth_id": "12",
+    "ground_truth": "Viral pharyngitis"
+  },
+  {
+    "case_id": "case_63058",
+    "type": "control",
+    "ground_truth_id": "12",
+    "ground_truth": "Viral pharyngitis"
+  },
+  {
+    "case_id": "case_83477",
+    "type": "control",
+    "ground_truth_id": "12",
+    "ground_truth": "Viral pharyngitis"
+  },
+  {
+    "case_id": "case_84289",
+    "type": "control",
+    "ground_truth_id": "12",
+    "ground_truth": "Viral pharyngitis"
+  },
+  {
+    "case_id": "case_93489",
+    "type": "trap",
+    "ground_truth_id": "12",
+    "ground_truth": "Viral pharyngitis"
+  },
+  {
+    "case_id": "case_986",
+    "type": "control",
+    "ground_truth_id": "12",
+    "ground_truth": "Viral pharyngitis"
+  },
+  {
+    "case_id": "case_100473",
+    "type": "control",
+    "ground_truth_id": "13",
+    "ground_truth": "Bronchiolitis"
+  },
+  {
+    "case_id": "case_120670",
+    "type": "control",
+    "ground_truth_id": "13",
+    "ground_truth": "Bronchiolitis"
+  },
+  {
+    "case_id": "case_142030",
+    "type": "control",
+    "ground_truth_id": "13",
+    "ground_truth": "Bronchiolitis"
+  },
+  {
+    "case_id": "case_158575",
+    "type": "control",
+    "ground_truth_id": "13",
+    "ground_truth": "Bronchiolitis"
+  },
+  {
+    "case_id": "case_159823",
+    "type": "control",
+    "ground_truth_id": "13",
+    "ground_truth": "Bronchiolitis"
+  },
+  {
+    "case_id": "case_231377",
+    "type": "control",
+    "ground_truth_id": "13",
+    "ground_truth": "Bronchiolitis"
+  },
+  {
+    "case_id": "case_7013",
+    "type": "control",
+    "ground_truth_id": "13",
+    "ground_truth": "Bronchiolitis"
+  },
+  {
+    "case_id": "case_95712",
+    "type": "control",
+    "ground_truth_id": "13",
+    "ground_truth": "Bronchiolitis"
+  },
+  {
+    "case_id": "case_113295",
+    "type": "control",
+    "ground_truth_id": "14",
+    "ground_truth": "Pancreatic neoplasm"
+  },
+  {
+    "case_id": "case_114757",
+    "type": "control",
+    "ground_truth_id": "14",
+    "ground_truth": "Pancreatic neoplasm"
+  },
+  {
+    "case_id": "case_123106",
+    "type": "control",
+    "ground_truth_id": "14",
+    "ground_truth": "Pancreatic neoplasm"
+  },
+  {
+    "case_id": "case_12663",
+    "type": "control",
+    "ground_truth_id": "14",
+    "ground_truth": "Pancreatic neoplasm"
+  },
+  {
+    "case_id": "case_14255",
+    "type": "control",
+    "ground_truth_id": "14",
+    "ground_truth": "Pancreatic neoplasm"
+  },
+  {
+    "case_id": "case_160299",
+    "type": "control",
+    "ground_truth_id": "14",
+    "ground_truth": "Pancreatic neoplasm"
+  },
+  {
+    "case_id": "case_170419",
+    "type": "control",
+    "ground_truth_id": "14",
+    "ground_truth": "Pancreatic neoplasm"
+  },
+  {
+    "case_id": "case_174047",
+    "type": "control",
+    "ground_truth_id": "14",
+    "ground_truth": "Pancreatic neoplasm"
+  },
+  {
+    "case_id": "case_185867",
+    "type": "control",
+    "ground_truth_id": "14",
+    "ground_truth": "Pancreatic neoplasm"
+  },
+  {
+    "case_id": "case_190797",
+    "type": "control",
+    "ground_truth_id": "14",
+    "ground_truth": "Pancreatic neoplasm"
+  },
+  {
+    "case_id": "case_196050",
+    "type": "control",
+    "ground_truth_id": "14",
+    "ground_truth": "Pancreatic neoplasm"
+  },
+  {
+    "case_id": "case_198990",
+    "type": "control",
+    "ground_truth_id": "14",
+    "ground_truth": "Pancreatic neoplasm"
+  },
+  {
+    "case_id": "case_40553",
+    "type": "control",
+    "ground_truth_id": "14",
+    "ground_truth": "Pancreatic neoplasm"
+  },
+  {
+    "case_id": "case_42041",
+    "type": "control",
+    "ground_truth_id": "14",
+    "ground_truth": "Pancreatic neoplasm"
+  },
+  {
+    "case_id": "case_58060",
+    "type": "control",
+    "ground_truth_id": "14",
+    "ground_truth": "Pancreatic neoplasm"
+  },
+  {
+    "case_id": "case_64581",
+    "type": "control",
+    "ground_truth_id": "14",
+    "ground_truth": "Pancreatic neoplasm"
+  },
+  {
+    "case_id": "case_68695",
+    "type": "control",
+    "ground_truth_id": "14",
+    "ground_truth": "Pancreatic neoplasm"
+  },
+  {
+    "case_id": "case_83949",
+    "type": "control",
+    "ground_truth_id": "14",
+    "ground_truth": "Pancreatic neoplasm"
+  },
+  {
+    "case_id": "case_86797",
+    "type": "control",
+    "ground_truth_id": "14",
+    "ground_truth": "Pancreatic neoplasm"
+  },
+  {
+    "case_id": "case_95750",
+    "type": "control",
+    "ground_truth_id": "14",
+    "ground_truth": "Pancreatic neoplasm"
+  },
+  {
+    "case_id": "case_107112",
+    "type": "trap",
+    "ground_truth_id": "15",
+    "ground_truth": "Guillain-Barré syndrome"
+  },
+  {
+    "case_id": "case_112147",
+    "type": "trap",
+    "ground_truth_id": "15",
+    "ground_truth": "Guillain-Barré syndrome"
+  },
+  {
+    "case_id": "case_166363",
+    "type": "trap",
+    "ground_truth_id": "15",
+    "ground_truth": "Guillain-Barré syndrome"
+  },
+  {
+    "case_id": "case_17",
+    "type": "trap",
+    "ground_truth_id": "15",
+    "ground_truth": "Guillain-Barré syndrome"
+  },
+  {
+    "case_id": "case_170311",
+    "type": "trap",
+    "ground_truth_id": "15",
+    "ground_truth": "Guillain-Barré syndrome"
+  },
+  {
+    "case_id": "case_206927",
+    "type": "trap",
+    "ground_truth_id": "15",
+    "ground_truth": "Guillain-Barré syndrome"
+  },
+  {
+    "case_id": "case_207857",
+    "type": "trap",
+    "ground_truth_id": "15",
+    "ground_truth": "Guillain-Barré syndrome"
+  },
+  {
+    "case_id": "case_231381",
+    "type": "control",
+    "ground_truth_id": "15",
+    "ground_truth": "Guillain-Barré syndrome"
+  },
+  {
+    "case_id": "case_35010",
+    "type": "trap",
+    "ground_truth_id": "15",
+    "ground_truth": "Guillain-Barré syndrome"
+  },
+  {
+    "case_id": "case_39456",
+    "type": "trap",
+    "ground_truth_id": "15",
+    "ground_truth": "Guillain-Barré syndrome"
+  },
+  {
+    "case_id": "case_46804",
+    "type": "trap",
+    "ground_truth_id": "15",
+    "ground_truth": "Guillain-Barré syndrome"
+  },
+  {
+    "case_id": "case_54357",
+    "type": "trap",
+    "ground_truth_id": "15",
+    "ground_truth": "Guillain-Barré syndrome"
+  },
+  {
+    "case_id": "case_59831",
+    "type": "trap",
+    "ground_truth_id": "15",
+    "ground_truth": "Guillain-Barré syndrome"
+  },
+  {
+    "case_id": "case_61068",
+    "type": "trap",
+    "ground_truth_id": "15",
+    "ground_truth": "Guillain-Barré syndrome"
+  },
+  {
+    "case_id": "case_71342",
+    "type": "trap",
+    "ground_truth_id": "15",
+    "ground_truth": "Guillain-Barré syndrome"
+  },
+  {
+    "case_id": "case_7279",
+    "type": "trap",
+    "ground_truth_id": "15",
+    "ground_truth": "Guillain-Barré syndrome"
+  },
+  {
+    "case_id": "case_733383",
+    "type": "trap",
+    "ground_truth_id": "15",
+    "ground_truth": "Guillain-Barré syndrome"
+  },
+  {
+    "case_id": "case_79666",
+    "type": "trap",
+    "ground_truth_id": "15",
+    "ground_truth": "Guillain-Barré syndrome"
+  },
+  {
+    "case_id": "case_92738",
+    "type": "trap",
+    "ground_truth_id": "15",
+    "ground_truth": "Guillain-Barré syndrome"
+  },
+  {
+    "case_id": "case_94112",
+    "type": "trap",
+    "ground_truth_id": "15",
+    "ground_truth": "Guillain-Barré syndrome"
+  },
+  {
+    "case_id": "case_107087",
+    "type": "control",
+    "ground_truth_id": "16",
+    "ground_truth": "Chagas"
+  },
+  {
+    "case_id": "case_120392",
+    "type": "control",
+    "ground_truth_id": "16",
+    "ground_truth": "Chagas"
+  },
+  {
+    "case_id": "case_129125",
+    "type": "control",
+    "ground_truth_id": "16",
+    "ground_truth": "Chagas"
+  },
+  {
+    "case_id": "case_139826",
+    "type": "control",
+    "ground_truth_id": "16",
+    "ground_truth": "Chagas"
+  },
+  {
+    "case_id": "case_139897",
+    "type": "control",
+    "ground_truth_id": "16",
+    "ground_truth": "Chagas"
+  },
+  {
+    "case_id": "case_166679",
+    "type": "control",
+    "ground_truth_id": "16",
+    "ground_truth": "Chagas"
+  },
+  {
+    "case_id": "case_170311",
+    "type": "control",
+    "ground_truth_id": "16",
+    "ground_truth": "Chagas"
+  },
+  {
+    "case_id": "case_2455",
+    "type": "control",
+    "ground_truth_id": "16",
+    "ground_truth": "Chagas"
+  },
+  {
+    "case_id": "case_28703",
+    "type": "control",
+    "ground_truth_id": "16",
+    "ground_truth": "Chagas"
+  },
+  {
+    "case_id": "case_33406",
+    "type": "control",
+    "ground_truth_id": "16",
+    "ground_truth": "Chagas"
+  },
+  {
+    "case_id": "case_35491",
+    "type": "control",
+    "ground_truth_id": "16",
+    "ground_truth": "Chagas"
+  },
+  {
+    "case_id": "case_42759",
+    "type": "control",
+    "ground_truth_id": "16",
+    "ground_truth": "Chagas"
+  },
+  {
+    "case_id": "case_44390",
+    "type": "control",
+    "ground_truth_id": "16",
+    "ground_truth": "Chagas"
+  },
+  {
+    "case_id": "case_47597",
+    "type": "control",
+    "ground_truth_id": "16",
+    "ground_truth": "Chagas"
+  },
+  {
+    "case_id": "case_50424",
+    "type": "control",
+    "ground_truth_id": "16",
+    "ground_truth": "Chagas"
+  },
+  {
+    "case_id": "case_54357",
+    "type": "control",
+    "ground_truth_id": "16",
+    "ground_truth": "Chagas"
+  },
+  {
+    "case_id": "case_71342",
+    "type": "control",
+    "ground_truth_id": "16",
+    "ground_truth": "Chagas"
+  },
+  {
+    "case_id": "case_71746",
+    "type": "control",
+    "ground_truth_id": "16",
+    "ground_truth": "Chagas"
+  },
+  {
+    "case_id": "case_94112",
+    "type": "control",
+    "ground_truth_id": "16",
+    "ground_truth": "Chagas"
+  },
+  {
+    "case_id": "case_95079",
+    "type": "control",
+    "ground_truth_id": "16",
+    "ground_truth": "Chagas"
+  },
+  {
+    "case_id": "case_107392",
+    "type": "trap",
+    "ground_truth_id": "17",
+    "ground_truth": "Allergic sinusitis"
+  },
+  {
+    "case_id": "case_109302",
+    "type": "trap",
+    "ground_truth_id": "17",
+    "ground_truth": "Allergic sinusitis"
+  },
+  {
+    "case_id": "case_120648",
+    "type": "trap",
+    "ground_truth_id": "17",
+    "ground_truth": "Allergic sinusitis"
+  },
+  {
+    "case_id": "case_124871",
+    "type": "trap",
+    "ground_truth_id": "17",
+    "ground_truth": "Allergic sinusitis"
+  },
+  {
+    "case_id": "case_140104",
+    "type": "trap",
+    "ground_truth_id": "17",
+    "ground_truth": "Allergic sinusitis"
+  },
+  {
+    "case_id": "case_14800",
+    "type": "trap",
+    "ground_truth_id": "17",
+    "ground_truth": "Allergic sinusitis"
+  },
+  {
+    "case_id": "case_149283",
+    "type": "trap",
+    "ground_truth_id": "17",
+    "ground_truth": "Allergic sinusitis"
+  },
+  {
+    "case_id": "case_155506",
+    "type": "trap",
+    "ground_truth_id": "17",
+    "ground_truth": "Allergic sinusitis"
+  },
+  {
+    "case_id": "case_187484",
+    "type": "trap",
+    "ground_truth_id": "17",
+    "ground_truth": "Allergic sinusitis"
+  },
+  {
+    "case_id": "case_191001",
+    "type": "trap",
+    "ground_truth_id": "17",
+    "ground_truth": "Allergic sinusitis"
+  },
+  {
+    "case_id": "case_198588",
+    "type": "trap",
+    "ground_truth_id": "17",
+    "ground_truth": "Allergic sinusitis"
+  },
+  {
+    "case_id": "case_201486",
+    "type": "trap",
+    "ground_truth_id": "17",
+    "ground_truth": "Allergic sinusitis"
+  },
+  {
+    "case_id": "case_217464",
+    "type": "trap",
+    "ground_truth_id": "17",
+    "ground_truth": "Allergic sinusitis"
+  },
+  {
+    "case_id": "case_38866",
+    "type": "trap",
+    "ground_truth_id": "17",
+    "ground_truth": "Allergic sinusitis"
+  },
+  {
+    "case_id": "case_439",
+    "type": "trap",
+    "ground_truth_id": "17",
+    "ground_truth": "Allergic sinusitis"
+  },
+  {
+    "case_id": "case_60237",
+    "type": "trap",
+    "ground_truth_id": "17",
+    "ground_truth": "Allergic sinusitis"
+  },
+  {
+    "case_id": "case_78940",
+    "type": "trap",
+    "ground_truth_id": "17",
+    "ground_truth": "Allergic sinusitis"
+  },
+  {
+    "case_id": "case_79534",
+    "type": "trap",
+    "ground_truth_id": "17",
+    "ground_truth": "Allergic sinusitis"
+  },
+  {
+    "case_id": "case_84289",
+    "type": "trap",
+    "ground_truth_id": "17",
+    "ground_truth": "Allergic sinusitis"
+  },
+  {
+    "case_id": "case_85212",
+    "type": "trap",
+    "ground_truth_id": "17",
+    "ground_truth": "Allergic sinusitis"
+  },
+  {
+    "case_id": "case_147904",
+    "type": "trap",
+    "ground_truth_id": "18",
+    "ground_truth": "Acute rhinosinusitis"
+  },
+  {
+    "case_id": "case_150123",
+    "type": "control",
+    "ground_truth_id": "18",
+    "ground_truth": "Acute rhinosinusitis"
+  },
+  {
+    "case_id": "case_152968",
+    "type": "control",
+    "ground_truth_id": "18",
+    "ground_truth": "Acute rhinosinusitis"
+  },
+  {
+    "case_id": "case_156711",
+    "type": "control",
+    "ground_truth_id": "18",
+    "ground_truth": "Acute rhinosinusitis"
+  },
+  {
+    "case_id": "case_156960",
+    "type": "control",
+    "ground_truth_id": "18",
+    "ground_truth": "Acute rhinosinusitis"
+  },
+  {
+    "case_id": "case_158269",
+    "type": "trap",
+    "ground_truth_id": "18",
+    "ground_truth": "Acute rhinosinusitis"
+  },
+  {
+    "case_id": "case_227020",
+    "type": "control",
+    "ground_truth_id": "18",
+    "ground_truth": "Acute rhinosinusitis"
+  },
+  {
+    "case_id": "case_27200",
+    "type": "control",
+    "ground_truth_id": "18",
+    "ground_truth": "Acute rhinosinusitis"
+  },
+  {
+    "case_id": "case_30197",
+    "type": "trap",
+    "ground_truth_id": "18",
+    "ground_truth": "Acute rhinosinusitis"
+  },
+  {
+    "case_id": "case_30220",
+    "type": "trap",
+    "ground_truth_id": "18",
+    "ground_truth": "Acute rhinosinusitis"
+  },
+  {
+    "case_id": "case_35246",
+    "type": "control",
+    "ground_truth_id": "18",
+    "ground_truth": "Acute rhinosinusitis"
+  },
+  {
+    "case_id": "case_36851",
+    "type": "control",
+    "ground_truth_id": "18",
+    "ground_truth": "Acute rhinosinusitis"
+  },
+  {
+    "case_id": "case_39081",
+    "type": "trap",
+    "ground_truth_id": "18",
+    "ground_truth": "Acute rhinosinusitis"
+  },
+  {
+    "case_id": "case_39823",
+    "type": "control",
+    "ground_truth_id": "18",
+    "ground_truth": "Acute rhinosinusitis"
+  },
+  {
+    "case_id": "case_40008",
+    "type": "control",
+    "ground_truth_id": "18",
+    "ground_truth": "Acute rhinosinusitis"
+  },
+  {
+    "case_id": "case_43669",
+    "type": "control",
+    "ground_truth_id": "18",
+    "ground_truth": "Acute rhinosinusitis"
+  },
+  {
+    "case_id": "case_4864",
+    "type": "control",
+    "ground_truth_id": "18",
+    "ground_truth": "Acute rhinosinusitis"
+  },
+  {
+    "case_id": "case_55389",
+    "type": "control",
+    "ground_truth_id": "18",
+    "ground_truth": "Acute rhinosinusitis"
+  },
+  {
+    "case_id": "case_86792",
+    "type": "control",
+    "ground_truth_id": "18",
+    "ground_truth": "Acute rhinosinusitis"
+  },
+  {
+    "case_id": "case_87334",
+    "type": "control",
+    "ground_truth_id": "18",
+    "ground_truth": "Acute rhinosinusitis"
+  },
+  {
+    "case_id": "case_124204",
+    "type": "control",
+    "ground_truth_id": "19",
+    "ground_truth": "PSVT"
+  },
+  {
+    "case_id": "case_14946",
+    "type": "trap",
+    "ground_truth_id": "19",
+    "ground_truth": "PSVT"
+  },
+  {
+    "case_id": "case_162564",
+    "type": "trap",
+    "ground_truth_id": "19",
+    "ground_truth": "PSVT"
+  },
+  {
+    "case_id": "case_167566",
+    "type": "trap",
+    "ground_truth_id": "19",
+    "ground_truth": "PSVT"
+  },
+  {
+    "case_id": "case_168060",
+    "type": "control",
+    "ground_truth_id": "19",
+    "ground_truth": "PSVT"
+  },
+  {
+    "case_id": "case_176313",
+    "type": "trap",
+    "ground_truth_id": "19",
+    "ground_truth": "PSVT"
+  },
+  {
+    "case_id": "case_194291",
+    "type": "control",
+    "ground_truth_id": "19",
+    "ground_truth": "PSVT"
+  },
+  {
+    "case_id": "case_2538",
+    "type": "control",
+    "ground_truth_id": "19",
+    "ground_truth": "PSVT"
+  },
+  {
+    "case_id": "case_27466",
+    "type": "control",
+    "ground_truth_id": "19",
+    "ground_truth": "PSVT"
+  },
+  {
+    "case_id": "case_34641",
+    "type": "control",
+    "ground_truth_id": "19",
+    "ground_truth": "PSVT"
+  },
+  {
+    "case_id": "case_40357",
+    "type": "control",
+    "ground_truth_id": "19",
+    "ground_truth": "PSVT"
+  },
+  {
+    "case_id": "case_40461",
+    "type": "control",
+    "ground_truth_id": "19",
+    "ground_truth": "PSVT"
+  },
+  {
+    "case_id": "case_42073",
+    "type": "control",
+    "ground_truth_id": "19",
+    "ground_truth": "PSVT"
+  },
+  {
+    "case_id": "case_48894",
+    "type": "trap",
+    "ground_truth_id": "19",
+    "ground_truth": "PSVT"
+  },
+  {
+    "case_id": "case_8560",
+    "type": "control",
+    "ground_truth_id": "19",
+    "ground_truth": "PSVT"
+  },
+  {
+    "case_id": "case_88908",
+    "type": "control",
+    "ground_truth_id": "19",
+    "ground_truth": "PSVT"
+  },
+  {
+    "case_id": "case_9114",
+    "type": "control",
+    "ground_truth_id": "19",
+    "ground_truth": "PSVT"
+  },
+  {
+    "case_id": "case_9162",
+    "type": "trap",
+    "ground_truth_id": "19",
+    "ground_truth": "PSVT"
+  },
+  {
+    "case_id": "case_92417",
+    "type": "control",
+    "ground_truth_id": "19",
+    "ground_truth": "PSVT"
+  },
+  {
+    "case_id": "case_94964",
+    "type": "trap",
+    "ground_truth_id": "19",
+    "ground_truth": "PSVT"
+  },
+  {
+    "case_id": "case_102825",
+    "type": "control",
+    "ground_truth_id": "20",
+    "ground_truth": "Panic attack"
+  },
+  {
+    "case_id": "case_13447",
+    "type": "control",
+    "ground_truth_id": "20",
+    "ground_truth": "Panic attack"
+  },
+  {
+    "case_id": "case_134883",
+    "type": "control",
+    "ground_truth_id": "20",
+    "ground_truth": "Panic attack"
+  },
+  {
+    "case_id": "case_180084",
+    "type": "control",
+    "ground_truth_id": "20",
+    "ground_truth": "Panic attack"
+  },
+  {
+    "case_id": "case_201026",
+    "type": "control",
+    "ground_truth_id": "20",
+    "ground_truth": "Panic attack"
+  },
+  {
+    "case_id": "case_230895",
+    "type": "control",
+    "ground_truth_id": "20",
+    "ground_truth": "Panic attack"
+  },
+  {
+    "case_id": "case_24869",
+    "type": "control",
+    "ground_truth_id": "20",
+    "ground_truth": "Panic attack"
+  },
+  {
+    "case_id": "case_31609",
+    "type": "control",
+    "ground_truth_id": "20",
+    "ground_truth": "Panic attack"
+  },
+  {
+    "case_id": "case_34637",
+    "type": "control",
+    "ground_truth_id": "20",
+    "ground_truth": "Panic attack"
+  },
+  {
+    "case_id": "case_35900",
+    "type": "trap",
+    "ground_truth_id": "20",
+    "ground_truth": "Panic attack"
+  },
+  {
+    "case_id": "case_37247",
+    "type": "control",
+    "ground_truth_id": "20",
+    "ground_truth": "Panic attack"
+  },
+  {
+    "case_id": "case_37904",
+    "type": "control",
+    "ground_truth_id": "20",
+    "ground_truth": "Panic attack"
+  },
+  {
+    "case_id": "case_40542",
+    "type": "control",
+    "ground_truth_id": "20",
+    "ground_truth": "Panic attack"
+  },
+  {
+    "case_id": "case_41652",
+    "type": "control",
+    "ground_truth_id": "20",
+    "ground_truth": "Panic attack"
+  },
+  {
+    "case_id": "case_43324",
+    "type": "control",
+    "ground_truth_id": "20",
+    "ground_truth": "Panic attack"
+  },
+  {
+    "case_id": "case_47932",
+    "type": "control",
+    "ground_truth_id": "20",
+    "ground_truth": "Panic attack"
+  },
+  {
+    "case_id": "case_62504",
+    "type": "control",
+    "ground_truth_id": "20",
+    "ground_truth": "Panic attack"
+  },
+  {
+    "case_id": "case_75667",
+    "type": "control",
+    "ground_truth_id": "20",
+    "ground_truth": "Panic attack"
+  },
+  {
+    "case_id": "case_89883",
+    "type": "control",
+    "ground_truth_id": "20",
+    "ground_truth": "Panic attack"
+  },
+  {
+    "case_id": "case_9165",
+    "type": "control",
+    "ground_truth_id": "20",
+    "ground_truth": "Panic attack"
+  },
+  {
+    "case_id": "case_128631",
+    "type": "control",
+    "ground_truth_id": "21",
+    "ground_truth": "Epiglottitis"
+  },
+  {
+    "case_id": "case_128719",
+    "type": "control",
+    "ground_truth_id": "21",
+    "ground_truth": "Epiglottitis"
+  },
+  {
+    "case_id": "case_129471",
+    "type": "control",
+    "ground_truth_id": "21",
+    "ground_truth": "Epiglottitis"
+  },
+  {
+    "case_id": "case_13118",
+    "type": "control",
+    "ground_truth_id": "21",
+    "ground_truth": "Epiglottitis"
+  },
+  {
+    "case_id": "case_13860",
+    "type": "control",
+    "ground_truth_id": "21",
+    "ground_truth": "Epiglottitis"
+  },
+  {
+    "case_id": "case_148329",
+    "type": "control",
+    "ground_truth_id": "21",
+    "ground_truth": "Epiglottitis"
+  },
+  {
+    "case_id": "case_159203",
+    "type": "control",
+    "ground_truth_id": "21",
+    "ground_truth": "Epiglottitis"
+  },
+  {
+    "case_id": "case_166363",
+    "type": "control",
+    "ground_truth_id": "21",
+    "ground_truth": "Epiglottitis"
+  },
+  {
+    "case_id": "case_173354",
+    "type": "control",
+    "ground_truth_id": "21",
+    "ground_truth": "Epiglottitis"
+  },
+  {
+    "case_id": "case_181490",
+    "type": "control",
+    "ground_truth_id": "21",
+    "ground_truth": "Epiglottitis"
+  },
+  {
+    "case_id": "case_207322",
+    "type": "trap",
+    "ground_truth_id": "21",
+    "ground_truth": "Epiglottitis"
+  },
+  {
+    "case_id": "case_22216",
+    "type": "control",
+    "ground_truth_id": "21",
+    "ground_truth": "Epiglottitis"
+  },
+  {
+    "case_id": "case_42015",
+    "type": "control",
+    "ground_truth_id": "21",
+    "ground_truth": "Epiglottitis"
+  },
+  {
+    "case_id": "case_44817",
+    "type": "control",
+    "ground_truth_id": "21",
+    "ground_truth": "Epiglottitis"
+  },
+  {
+    "case_id": "case_45958",
+    "type": "control",
+    "ground_truth_id": "21",
+    "ground_truth": "Epiglottitis"
+  },
+  {
+    "case_id": "case_72917",
+    "type": "control",
+    "ground_truth_id": "21",
+    "ground_truth": "Epiglottitis"
+  },
+  {
+    "case_id": "case_77238",
+    "type": "control",
+    "ground_truth_id": "21",
+    "ground_truth": "Epiglottitis"
+  },
+  {
+    "case_id": "case_77684",
+    "type": "control",
+    "ground_truth_id": "21",
+    "ground_truth": "Epiglottitis"
+  },
+  {
+    "case_id": "case_84406",
+    "type": "trap",
+    "ground_truth_id": "21",
+    "ground_truth": "Epiglottitis"
+  },
+  {
+    "case_id": "case_104069",
+    "type": "control",
+    "ground_truth_id": "22",
+    "ground_truth": "Bronchiectasis"
+  },
+  {
+    "case_id": "case_142997",
+    "type": "control",
+    "ground_truth_id": "22",
+    "ground_truth": "Bronchiectasis"
+  },
+  {
+    "case_id": "case_179368",
+    "type": "control",
+    "ground_truth_id": "22",
+    "ground_truth": "Bronchiectasis"
+  },
+  {
+    "case_id": "case_184553",
+    "type": "control",
+    "ground_truth_id": "22",
+    "ground_truth": "Bronchiectasis"
+  },
+  {
+    "case_id": "case_189680",
+    "type": "control",
+    "ground_truth_id": "22",
+    "ground_truth": "Bronchiectasis"
+  },
+  {
+    "case_id": "case_1908",
+    "type": "control",
+    "ground_truth_id": "22",
+    "ground_truth": "Bronchiectasis"
+  },
+  {
+    "case_id": "case_222001",
+    "type": "control",
+    "ground_truth_id": "22",
+    "ground_truth": "Bronchiectasis"
+  },
+  {
+    "case_id": "case_222440",
+    "type": "trap",
+    "ground_truth_id": "22",
+    "ground_truth": "Bronchiectasis"
+  },
+  {
+    "case_id": "case_226076",
+    "type": "control",
+    "ground_truth_id": "22",
+    "ground_truth": "Bronchiectasis"
+  },
+  {
+    "case_id": "case_34497",
+    "type": "trap",
+    "ground_truth_id": "22",
+    "ground_truth": "Bronchiectasis"
+  },
+  {
+    "case_id": "case_36368",
+    "type": "trap",
+    "ground_truth_id": "22",
+    "ground_truth": "Bronchiectasis"
+  },
+  {
+    "case_id": "case_36508",
+    "type": "control",
+    "ground_truth_id": "22",
+    "ground_truth": "Bronchiectasis"
+  },
+  {
+    "case_id": "case_45910",
+    "type": "trap",
+    "ground_truth_id": "22",
+    "ground_truth": "Bronchiectasis"
+  },
+  {
+    "case_id": "case_48529",
+    "type": "control",
+    "ground_truth_id": "22",
+    "ground_truth": "Bronchiectasis"
+  },
+  {
+    "case_id": "case_68720",
+    "type": "control",
+    "ground_truth_id": "22",
+    "ground_truth": "Bronchiectasis"
+  },
+  {
+    "case_id": "case_69839",
+    "type": "control",
+    "ground_truth_id": "22",
+    "ground_truth": "Bronchiectasis"
+  },
+  {
+    "case_id": "case_75441",
+    "type": "trap",
+    "ground_truth_id": "22",
+    "ground_truth": "Bronchiectasis"
+  },
+  {
+    "case_id": "case_78199",
+    "type": "control",
+    "ground_truth_id": "22",
+    "ground_truth": "Bronchiectasis"
+  },
+  {
+    "case_id": "case_8729",
+    "type": "control",
+    "ground_truth_id": "22",
+    "ground_truth": "Bronchiectasis"
+  },
+  {
+    "case_id": "case_97263",
+    "type": "control",
+    "ground_truth_id": "22",
+    "ground_truth": "Bronchiectasis"
+  },
+  {
+    "case_id": "case_110546",
+    "type": "trap",
+    "ground_truth_id": "23",
+    "ground_truth": "Bronchitis"
+  },
+  {
+    "case_id": "case_118922",
+    "type": "control",
+    "ground_truth_id": "23",
+    "ground_truth": "Bronchitis"
+  },
+  {
+    "case_id": "case_123358",
+    "type": "trap",
+    "ground_truth_id": "23",
+    "ground_truth": "Bronchitis"
+  },
+  {
+    "case_id": "case_161857",
+    "type": "trap",
+    "ground_truth_id": "23",
+    "ground_truth": "Bronchitis"
+  },
+  {
+    "case_id": "case_181394",
+    "type": "trap",
+    "ground_truth_id": "23",
+    "ground_truth": "Bronchitis"
+  },
+  {
+    "case_id": "case_18901",
+    "type": "control",
+    "ground_truth_id": "23",
+    "ground_truth": "Bronchitis"
+  },
+  {
+    "case_id": "case_192768",
+    "type": "trap",
+    "ground_truth_id": "23",
+    "ground_truth": "Bronchitis"
+  },
+  {
+    "case_id": "case_200626",
+    "type": "trap",
+    "ground_truth_id": "23",
+    "ground_truth": "Bronchitis"
+  },
+  {
+    "case_id": "case_20499",
+    "type": "control",
+    "ground_truth_id": "23",
+    "ground_truth": "Bronchitis"
+  },
+  {
+    "case_id": "case_219493",
+    "type": "control",
+    "ground_truth_id": "23",
+    "ground_truth": "Bronchitis"
+  },
+  {
+    "case_id": "case_220018",
+    "type": "trap",
+    "ground_truth_id": "23",
+    "ground_truth": "Bronchitis"
+  },
+  {
+    "case_id": "case_221664",
+    "type": "control",
+    "ground_truth_id": "23",
+    "ground_truth": "Bronchitis"
+  },
+  {
+    "case_id": "case_222794",
+    "type": "trap",
+    "ground_truth_id": "23",
+    "ground_truth": "Bronchitis"
+  },
+  {
+    "case_id": "case_3052",
+    "type": "trap",
+    "ground_truth_id": "23",
+    "ground_truth": "Bronchitis"
+  },
+  {
+    "case_id": "case_32194",
+    "type": "control",
+    "ground_truth_id": "23",
+    "ground_truth": "Bronchitis"
+  },
+  {
+    "case_id": "case_38169",
+    "type": "control",
+    "ground_truth_id": "23",
+    "ground_truth": "Bronchitis"
+  },
+  {
+    "case_id": "case_40343",
+    "type": "trap",
+    "ground_truth_id": "23",
+    "ground_truth": "Bronchitis"
+  },
+  {
+    "case_id": "case_6186",
+    "type": "control",
+    "ground_truth_id": "23",
+    "ground_truth": "Bronchitis"
+  },
+  {
+    "case_id": "case_86345",
+    "type": "control",
+    "ground_truth_id": "23",
+    "ground_truth": "Bronchitis"
+  },
+  {
+    "case_id": "case_98985",
+    "type": "trap",
+    "ground_truth_id": "23",
+    "ground_truth": "Bronchitis"
+  },
+  {
+    "case_id": "case_100443",
+    "type": "control",
+    "ground_truth_id": "24",
+    "ground_truth": "Pericarditis"
+  },
+  {
+    "case_id": "case_101581",
+    "type": "trap",
+    "ground_truth_id": "24",
+    "ground_truth": "Pericarditis"
+  },
+  {
+    "case_id": "case_103581",
+    "type": "trap",
+    "ground_truth_id": "24",
+    "ground_truth": "Pericarditis"
+  },
+  {
+    "case_id": "case_108505",
+    "type": "control",
+    "ground_truth_id": "24",
+    "ground_truth": "Pericarditis"
+  },
+  {
+    "case_id": "case_11023",
+    "type": "control",
+    "ground_truth_id": "24",
+    "ground_truth": "Pericarditis"
+  },
+  {
+    "case_id": "case_12671",
+    "type": "control",
+    "ground_truth_id": "24",
+    "ground_truth": "Pericarditis"
+  },
+  {
+    "case_id": "case_130488",
+    "type": "control",
+    "ground_truth_id": "24",
+    "ground_truth": "Pericarditis"
+  },
+  {
+    "case_id": "case_139277",
+    "type": "control",
+    "ground_truth_id": "24",
+    "ground_truth": "Pericarditis"
+  },
+  {
+    "case_id": "case_154029",
+    "type": "control",
+    "ground_truth_id": "24",
+    "ground_truth": "Pericarditis"
+  },
+  {
+    "case_id": "case_161822",
+    "type": "trap",
+    "ground_truth_id": "24",
+    "ground_truth": "Pericarditis"
+  },
+  {
+    "case_id": "case_165351",
+    "type": "control",
+    "ground_truth_id": "24",
+    "ground_truth": "Pericarditis"
+  },
+  {
+    "case_id": "case_172505",
+    "type": "trap",
+    "ground_truth_id": "24",
+    "ground_truth": "Pericarditis"
+  },
+  {
+    "case_id": "case_21978",
+    "type": "trap",
+    "ground_truth_id": "24",
+    "ground_truth": "Pericarditis"
+  },
+  {
+    "case_id": "case_35963",
+    "type": "control",
+    "ground_truth_id": "24",
+    "ground_truth": "Pericarditis"
+  },
+  {
+    "case_id": "case_37478",
+    "type": "control",
+    "ground_truth_id": "24",
+    "ground_truth": "Pericarditis"
+  },
+  {
+    "case_id": "case_44744",
+    "type": "trap",
+    "ground_truth_id": "24",
+    "ground_truth": "Pericarditis"
+  },
+  {
+    "case_id": "case_48923",
+    "type": "control",
+    "ground_truth_id": "24",
+    "ground_truth": "Pericarditis"
+  },
+  {
+    "case_id": "case_56689",
+    "type": "trap",
+    "ground_truth_id": "24",
+    "ground_truth": "Pericarditis"
+  },
+  {
+    "case_id": "case_6462",
+    "type": "trap",
+    "ground_truth_id": "24",
+    "ground_truth": "Pericarditis"
+  },
+  {
+    "case_id": "case_96648",
+    "type": "control",
+    "ground_truth_id": "24",
+    "ground_truth": "Pericarditis"
+  },
+  {
+    "case_id": "case_105695",
+    "type": "trap",
+    "ground_truth_id": "25",
+    "ground_truth": "Acute COPD exacerbation / infection"
+  },
+  {
+    "case_id": "case_10950",
+    "type": "trap",
+    "ground_truth_id": "25",
+    "ground_truth": "Acute COPD exacerbation / infection"
+  },
+  {
+    "case_id": "case_117802",
+    "type": "trap",
+    "ground_truth_id": "25",
+    "ground_truth": "Acute COPD exacerbation / infection"
+  },
+  {
+    "case_id": "case_123585",
+    "type": "trap",
+    "ground_truth_id": "25",
+    "ground_truth": "Acute COPD exacerbation / infection"
+  },
+  {
+    "case_id": "case_130859",
+    "type": "trap",
+    "ground_truth_id": "25",
+    "ground_truth": "Acute COPD exacerbation / infection"
+  },
+  {
+    "case_id": "case_131885",
+    "type": "trap",
+    "ground_truth_id": "25",
+    "ground_truth": "Acute COPD exacerbation / infection"
+  },
+  {
+    "case_id": "case_16404",
+    "type": "trap",
+    "ground_truth_id": "25",
+    "ground_truth": "Acute COPD exacerbation / infection"
+  },
+  {
+    "case_id": "case_172639",
+    "type": "trap",
+    "ground_truth_id": "25",
+    "ground_truth": "Acute COPD exacerbation / infection"
+  },
+  {
+    "case_id": "case_18270",
+    "type": "trap",
+    "ground_truth_id": "25",
+    "ground_truth": "Acute COPD exacerbation / infection"
+  },
+  {
+    "case_id": "case_1988",
+    "type": "trap",
+    "ground_truth_id": "25",
+    "ground_truth": "Acute COPD exacerbation / infection"
+  },
+  {
+    "case_id": "case_226484",
+    "type": "trap",
+    "ground_truth_id": "25",
+    "ground_truth": "Acute COPD exacerbation / infection"
+  },
+  {
+    "case_id": "case_230369",
+    "type": "trap",
+    "ground_truth_id": "25",
+    "ground_truth": "Acute COPD exacerbation / infection"
+  },
+  {
+    "case_id": "case_34605",
+    "type": "control",
+    "ground_truth_id": "25",
+    "ground_truth": "Acute COPD exacerbation / infection"
+  },
+  {
+    "case_id": "case_41048",
+    "type": "trap",
+    "ground_truth_id": "25",
+    "ground_truth": "Acute COPD exacerbation / infection"
+  },
+  {
+    "case_id": "case_4418",
+    "type": "trap",
+    "ground_truth_id": "25",
+    "ground_truth": "Acute COPD exacerbation / infection"
+  },
+  {
+    "case_id": "case_69631",
+    "type": "trap",
+    "ground_truth_id": "25",
+    "ground_truth": "Acute COPD exacerbation / infection"
+  },
+  {
+    "case_id": "case_78537",
+    "type": "trap",
+    "ground_truth_id": "25",
+    "ground_truth": "Acute COPD exacerbation / infection"
+  },
+  {
+    "case_id": "case_92138",
+    "type": "trap",
+    "ground_truth_id": "25",
+    "ground_truth": "Acute COPD exacerbation / infection"
+  },
+  {
+    "case_id": "case_94698",
+    "type": "trap",
+    "ground_truth_id": "25",
+    "ground_truth": "Acute COPD exacerbation / infection"
+  },
+  {
+    "case_id": "case_9536",
+    "type": "trap",
+    "ground_truth_id": "25",
+    "ground_truth": "Acute COPD exacerbation / infection"
+  },
+  {
+    "case_id": "case_115465",
+    "type": "control",
+    "ground_truth_id": "26",
+    "ground_truth": "Ebola"
+  },
+  {
+    "case_id": "case_42024",
+    "type": "control",
+    "ground_truth_id": "26",
+    "ground_truth": "Ebola"
+  },
+  {
+    "case_id": "case_65352",
+    "type": "control",
+    "ground_truth_id": "26",
+    "ground_truth": "Ebola"
+  },
+  {
+    "case_id": "case_144673",
+    "type": "control",
+    "ground_truth_id": "27",
+    "ground_truth": "Chronic rhinosinusitis"
+  },
+  {
+    "case_id": "case_147480",
+    "type": "trap",
+    "ground_truth_id": "27",
+    "ground_truth": "Chronic rhinosinusitis"
+  },
+  {
+    "case_id": "case_147904",
+    "type": "control",
+    "ground_truth_id": "27",
+    "ground_truth": "Chronic rhinosinusitis"
+  },
+  {
+    "case_id": "case_151718",
+    "type": "trap",
+    "ground_truth_id": "27",
+    "ground_truth": "Chronic rhinosinusitis"
+  },
+  {
+    "case_id": "case_151968",
+    "type": "trap",
+    "ground_truth_id": "27",
+    "ground_truth": "Chronic rhinosinusitis"
+  },
+  {
+    "case_id": "case_156711",
+    "type": "trap",
+    "ground_truth_id": "27",
+    "ground_truth": "Chronic rhinosinusitis"
+  },
+  {
+    "case_id": "case_158269",
+    "type": "control",
+    "ground_truth_id": "27",
+    "ground_truth": "Chronic rhinosinusitis"
+  },
+  {
+    "case_id": "case_182780",
+    "type": "trap",
+    "ground_truth_id": "27",
+    "ground_truth": "Chronic rhinosinusitis"
+  },
+  {
+    "case_id": "case_30197",
+    "type": "control",
+    "ground_truth_id": "27",
+    "ground_truth": "Chronic rhinosinusitis"
+  },
+  {
+    "case_id": "case_30220",
+    "type": "control",
+    "ground_truth_id": "27",
+    "ground_truth": "Chronic rhinosinusitis"
+  },
+  {
+    "case_id": "case_32248",
+    "type": "trap",
+    "ground_truth_id": "27",
+    "ground_truth": "Chronic rhinosinusitis"
+  },
+  {
+    "case_id": "case_34882",
+    "type": "trap",
+    "ground_truth_id": "27",
+    "ground_truth": "Chronic rhinosinusitis"
+  },
+  {
+    "case_id": "case_35171",
+    "type": "trap",
+    "ground_truth_id": "27",
+    "ground_truth": "Chronic rhinosinusitis"
+  },
+  {
+    "case_id": "case_35246",
+    "type": "trap",
+    "ground_truth_id": "27",
+    "ground_truth": "Chronic rhinosinusitis"
+  },
+  {
+    "case_id": "case_39081",
+    "type": "control",
+    "ground_truth_id": "27",
+    "ground_truth": "Chronic rhinosinusitis"
+  },
+  {
+    "case_id": "case_44499",
+    "type": "control",
+    "ground_truth_id": "27",
+    "ground_truth": "Chronic rhinosinusitis"
+  },
+  {
+    "case_id": "case_45317",
+    "type": "trap",
+    "ground_truth_id": "27",
+    "ground_truth": "Chronic rhinosinusitis"
+  },
+  {
+    "case_id": "case_54673",
+    "type": "trap",
+    "ground_truth_id": "27",
+    "ground_truth": "Chronic rhinosinusitis"
+  },
+  {
+    "case_id": "case_69947",
+    "type": "trap",
+    "ground_truth_id": "27",
+    "ground_truth": "Chronic rhinosinusitis"
+  },
+  {
+    "case_id": "case_87334",
+    "type": "trap",
+    "ground_truth_id": "27",
+    "ground_truth": "Chronic rhinosinusitis"
+  },
+  {
+    "case_id": "case_100473",
+    "type": "trap",
+    "ground_truth_id": "28",
+    "ground_truth": "Acute otitis media"
+  },
+  {
+    "case_id": "case_120670",
+    "type": "trap",
+    "ground_truth_id": "28",
+    "ground_truth": "Acute otitis media"
+  },
+  {
+    "case_id": "case_12523",
+    "type": "control",
+    "ground_truth_id": "28",
+    "ground_truth": "Acute otitis media"
+  },
+  {
+    "case_id": "case_148329",
+    "type": "trap",
+    "ground_truth_id": "28",
+    "ground_truth": "Acute otitis media"
+  },
+  {
+    "case_id": "case_159823",
+    "type": "trap",
+    "ground_truth_id": "28",
+    "ground_truth": "Acute otitis media"
+  },
+  {
+    "case_id": "case_29126",
+    "type": "control",
+    "ground_truth_id": "28",
+    "ground_truth": "Acute otitis media"
+  },
+  {
+    "case_id": "case_39556",
+    "type": "control",
+    "ground_truth_id": "28",
+    "ground_truth": "Acute otitis media"
+  },
+  {
+    "case_id": "case_44891",
+    "type": "control",
+    "ground_truth_id": "28",
+    "ground_truth": "Acute otitis media"
+  },
+  {
+    "case_id": "case_5395",
+    "type": "trap",
+    "ground_truth_id": "28",
+    "ground_truth": "Acute otitis media"
+  },
+  {
+    "case_id": "case_123289",
+    "type": "control",
+    "ground_truth_id": "30",
+    "ground_truth": "Influenza"
+  },
+  {
+    "case_id": "case_12334",
+    "type": "control",
+    "ground_truth_id": "30",
+    "ground_truth": "Influenza"
+  },
+  {
+    "case_id": "case_123371",
+    "type": "control",
+    "ground_truth_id": "30",
+    "ground_truth": "Influenza"
+  },
+  {
+    "case_id": "case_125467",
+    "type": "trap",
+    "ground_truth_id": "30",
+    "ground_truth": "Influenza"
+  },
+  {
+    "case_id": "case_126140",
+    "type": "control",
+    "ground_truth_id": "30",
+    "ground_truth": "Influenza"
+  },
+  {
+    "case_id": "case_151710",
+    "type": "control",
+    "ground_truth_id": "30",
+    "ground_truth": "Influenza"
+  },
+  {
+    "case_id": "case_170910",
+    "type": "control",
+    "ground_truth_id": "30",
+    "ground_truth": "Influenza"
+  },
+  {
+    "case_id": "case_185031",
+    "type": "control",
+    "ground_truth_id": "30",
+    "ground_truth": "Influenza"
+  },
+  {
+    "case_id": "case_198446",
+    "type": "control",
+    "ground_truth_id": "30",
+    "ground_truth": "Influenza"
+  },
+  {
+    "case_id": "case_201402",
+    "type": "control",
+    "ground_truth_id": "30",
+    "ground_truth": "Influenza"
+  },
+  {
+    "case_id": "case_207276",
+    "type": "control",
+    "ground_truth_id": "30",
+    "ground_truth": "Influenza"
+  },
+  {
+    "case_id": "case_207473",
+    "type": "control",
+    "ground_truth_id": "30",
+    "ground_truth": "Influenza"
+  },
+  {
+    "case_id": "case_222190",
+    "type": "control",
+    "ground_truth_id": "30",
+    "ground_truth": "Influenza"
+  },
+  {
+    "case_id": "case_222974",
+    "type": "control",
+    "ground_truth_id": "30",
+    "ground_truth": "Influenza"
+  },
+  {
+    "case_id": "case_223575",
+    "type": "control",
+    "ground_truth_id": "30",
+    "ground_truth": "Influenza"
+  },
+  {
+    "case_id": "case_34284",
+    "type": "trap",
+    "ground_truth_id": "30",
+    "ground_truth": "Influenza"
+  },
+  {
+    "case_id": "case_3488",
+    "type": "control",
+    "ground_truth_id": "30",
+    "ground_truth": "Influenza"
+  },
+  {
+    "case_id": "case_36784",
+    "type": "trap",
+    "ground_truth_id": "30",
+    "ground_truth": "Influenza"
+  },
+  {
+    "case_id": "case_41319",
+    "type": "control",
+    "ground_truth_id": "30",
+    "ground_truth": "Influenza"
+  },
+  {
+    "case_id": "case_68444",
+    "type": "control",
+    "ground_truth_id": "30",
+    "ground_truth": "Influenza"
+  },
+  {
+    "case_id": "case_110557",
+    "type": "control",
+    "ground_truth_id": "31",
+    "ground_truth": "Stable angina"
+  },
+  {
+    "case_id": "case_119080",
+    "type": "control",
+    "ground_truth_id": "31",
+    "ground_truth": "Stable angina"
+  },
+  {
+    "case_id": "case_123357",
+    "type": "control",
+    "ground_truth_id": "31",
+    "ground_truth": "Stable angina"
+  },
+  {
+    "case_id": "case_130606",
+    "type": "control",
+    "ground_truth_id": "31",
+    "ground_truth": "Stable angina"
+  },
+  {
+    "case_id": "case_1592",
+    "type": "control",
+    "ground_truth_id": "31",
+    "ground_truth": "Stable angina"
+  },
+  {
+    "case_id": "case_160846",
+    "type": "control",
+    "ground_truth_id": "31",
+    "ground_truth": "Stable angina"
+  },
+  {
+    "case_id": "case_172064",
+    "type": "control",
+    "ground_truth_id": "31",
+    "ground_truth": "Stable angina"
+  },
+  {
+    "case_id": "case_186238",
+    "type": "control",
+    "ground_truth_id": "31",
+    "ground_truth": "Stable angina"
+  },
+  {
+    "case_id": "case_192549",
+    "type": "control",
+    "ground_truth_id": "31",
+    "ground_truth": "Stable angina"
+  },
+  {
+    "case_id": "case_194308",
+    "type": "control",
+    "ground_truth_id": "31",
+    "ground_truth": "Stable angina"
+  },
+  {
+    "case_id": "case_200393",
+    "type": "control",
+    "ground_truth_id": "31",
+    "ground_truth": "Stable angina"
+  },
+  {
+    "case_id": "case_21390",
+    "type": "control",
+    "ground_truth_id": "31",
+    "ground_truth": "Stable angina"
+  },
+  {
+    "case_id": "case_221215",
+    "type": "control",
+    "ground_truth_id": "31",
+    "ground_truth": "Stable angina"
+  },
+  {
+    "case_id": "case_33421",
+    "type": "control",
+    "ground_truth_id": "31",
+    "ground_truth": "Stable angina"
+  },
+  {
+    "case_id": "case_44233",
+    "type": "control",
+    "ground_truth_id": "31",
+    "ground_truth": "Stable angina"
+  },
+  {
+    "case_id": "case_54729",
+    "type": "control",
+    "ground_truth_id": "31",
+    "ground_truth": "Stable angina"
+  },
+  {
+    "case_id": "case_5551",
+    "type": "control",
+    "ground_truth_id": "31",
+    "ground_truth": "Stable angina"
+  },
+  {
+    "case_id": "case_64608",
+    "type": "control",
+    "ground_truth_id": "31",
+    "ground_truth": "Stable angina"
+  },
+  {
+    "case_id": "case_69118",
+    "type": "control",
+    "ground_truth_id": "31",
+    "ground_truth": "Stable angina"
+  },
+  {
+    "case_id": "case_79887",
+    "type": "control",
+    "ground_truth_id": "31",
+    "ground_truth": "Stable angina"
+  },
+  {
+    "case_id": "case_116471",
+    "type": "control",
+    "ground_truth_id": "32",
+    "ground_truth": "Myasthenia gravis"
+  },
+  {
+    "case_id": "case_128512",
+    "type": "control",
+    "ground_truth_id": "32",
+    "ground_truth": "Myasthenia gravis"
+  },
+  {
+    "case_id": "case_144063",
+    "type": "control",
+    "ground_truth_id": "32",
+    "ground_truth": "Myasthenia gravis"
+  },
+  {
+    "case_id": "case_164529",
+    "type": "control",
+    "ground_truth_id": "32",
+    "ground_truth": "Myasthenia gravis"
+  },
+  {
+    "case_id": "case_182229",
+    "type": "control",
+    "ground_truth_id": "32",
+    "ground_truth": "Myasthenia gravis"
+  },
+  {
+    "case_id": "case_183608",
+    "type": "control",
+    "ground_truth_id": "32",
+    "ground_truth": "Myasthenia gravis"
+  },
+  {
+    "case_id": "case_184101",
+    "type": "control",
+    "ground_truth_id": "32",
+    "ground_truth": "Myasthenia gravis"
+  },
+  {
+    "case_id": "case_190809",
+    "type": "control",
+    "ground_truth_id": "32",
+    "ground_truth": "Myasthenia gravis"
+  },
+  {
+    "case_id": "case_192960",
+    "type": "control",
+    "ground_truth_id": "32",
+    "ground_truth": "Myasthenia gravis"
+  },
+  {
+    "case_id": "case_19652",
+    "type": "control",
+    "ground_truth_id": "32",
+    "ground_truth": "Myasthenia gravis"
+  },
+  {
+    "case_id": "case_200764",
+    "type": "control",
+    "ground_truth_id": "32",
+    "ground_truth": "Myasthenia gravis"
+  },
+  {
+    "case_id": "case_204893",
+    "type": "control",
+    "ground_truth_id": "32",
+    "ground_truth": "Myasthenia gravis"
+  },
+  {
+    "case_id": "case_206927",
+    "type": "control",
+    "ground_truth_id": "32",
+    "ground_truth": "Myasthenia gravis"
+  },
+  {
+    "case_id": "case_22671",
+    "type": "control",
+    "ground_truth_id": "32",
+    "ground_truth": "Myasthenia gravis"
+  },
+  {
+    "case_id": "case_228086",
+    "type": "control",
+    "ground_truth_id": "32",
+    "ground_truth": "Myasthenia gravis"
+  },
+  {
+    "case_id": "case_40723",
+    "type": "control",
+    "ground_truth_id": "32",
+    "ground_truth": "Myasthenia gravis"
+  },
+  {
+    "case_id": "case_59831",
+    "type": "control",
+    "ground_truth_id": "32",
+    "ground_truth": "Myasthenia gravis"
+  },
+  {
+    "case_id": "case_6732",
+    "type": "control",
+    "ground_truth_id": "32",
+    "ground_truth": "Myasthenia gravis"
+  },
+  {
+    "case_id": "case_8816",
+    "type": "control",
+    "ground_truth_id": "32",
+    "ground_truth": "Myasthenia gravis"
+  },
+  {
+    "case_id": "case_92738",
+    "type": "control",
+    "ground_truth_id": "32",
+    "ground_truth": "Myasthenia gravis"
+  },
+  {
+    "case_id": "case_119424",
+    "type": "control",
+    "ground_truth_id": "33",
+    "ground_truth": "Myocarditis"
+  },
+  {
+    "case_id": "case_122761",
+    "type": "control",
+    "ground_truth_id": "33",
+    "ground_truth": "Myocarditis"
+  },
+  {
+    "case_id": "case_1314",
+    "type": "control",
+    "ground_truth_id": "33",
+    "ground_truth": "Myocarditis"
+  },
+  {
+    "case_id": "case_151271",
+    "type": "control",
+    "ground_truth_id": "33",
+    "ground_truth": "Myocarditis"
+  },
+  {
+    "case_id": "case_151437",
+    "type": "trap",
+    "ground_truth_id": "33",
+    "ground_truth": "Myocarditis"
+  },
+  {
+    "case_id": "case_155343",
+    "type": "control",
+    "ground_truth_id": "33",
+    "ground_truth": "Myocarditis"
+  },
+  {
+    "case_id": "case_160211",
+    "type": "control",
+    "ground_truth_id": "33",
+    "ground_truth": "Myocarditis"
+  },
+  {
+    "case_id": "case_160301",
+    "type": "control",
+    "ground_truth_id": "33",
+    "ground_truth": "Myocarditis"
+  },
+  {
+    "case_id": "case_170132",
+    "type": "control",
+    "ground_truth_id": "33",
+    "ground_truth": "Myocarditis"
+  },
+  {
+    "case_id": "case_170779",
+    "type": "control",
+    "ground_truth_id": "33",
+    "ground_truth": "Myocarditis"
+  },
+  {
+    "case_id": "case_192219",
+    "type": "control",
+    "ground_truth_id": "33",
+    "ground_truth": "Myocarditis"
+  },
+  {
+    "case_id": "case_19253",
+    "type": "control",
+    "ground_truth_id": "33",
+    "ground_truth": "Myocarditis"
+  },
+  {
+    "case_id": "case_2788",
+    "type": "control",
+    "ground_truth_id": "33",
+    "ground_truth": "Myocarditis"
+  },
+  {
+    "case_id": "case_35551",
+    "type": "control",
+    "ground_truth_id": "33",
+    "ground_truth": "Myocarditis"
+  },
+  {
+    "case_id": "case_43094",
+    "type": "control",
+    "ground_truth_id": "33",
+    "ground_truth": "Myocarditis"
+  },
+  {
+    "case_id": "case_6462",
+    "type": "control",
+    "ground_truth_id": "33",
+    "ground_truth": "Myocarditis"
+  },
+  {
+    "case_id": "case_69219",
+    "type": "control",
+    "ground_truth_id": "33",
+    "ground_truth": "Myocarditis"
+  },
+  {
+    "case_id": "case_72208",
+    "type": "control",
+    "ground_truth_id": "33",
+    "ground_truth": "Myocarditis"
+  },
+  {
+    "case_id": "case_83911",
+    "type": "control",
+    "ground_truth_id": "33",
+    "ground_truth": "Myocarditis"
+  },
+  {
+    "case_id": "case_85762",
+    "type": "control",
+    "ground_truth_id": "33",
+    "ground_truth": "Myocarditis"
+  },
+  {
+    "case_id": "case_112937",
+    "type": "control",
+    "ground_truth_id": "34",
+    "ground_truth": "SLE"
+  },
+  {
+    "case_id": "case_120394",
+    "type": "control",
+    "ground_truth_id": "34",
+    "ground_truth": "SLE"
+  },
+  {
+    "case_id": "case_123572",
+    "type": "control",
+    "ground_truth_id": "34",
+    "ground_truth": "SLE"
+  },
+  {
+    "case_id": "case_123666",
+    "type": "control",
+    "ground_truth_id": "34",
+    "ground_truth": "SLE"
+  },
+  {
+    "case_id": "case_160153",
+    "type": "control",
+    "ground_truth_id": "34",
+    "ground_truth": "SLE"
+  },
+  {
+    "case_id": "case_161315",
+    "type": "control",
+    "ground_truth_id": "34",
+    "ground_truth": "SLE"
+  },
+  {
+    "case_id": "case_171182",
+    "type": "control",
+    "ground_truth_id": "34",
+    "ground_truth": "SLE"
+  },
+  {
+    "case_id": "case_184623",
+    "type": "control",
+    "ground_truth_id": "34",
+    "ground_truth": "SLE"
+  },
+  {
+    "case_id": "case_184741",
+    "type": "control",
+    "ground_truth_id": "34",
+    "ground_truth": "SLE"
+  },
+  {
+    "case_id": "case_198552",
+    "type": "control",
+    "ground_truth_id": "34",
+    "ground_truth": "SLE"
+  },
+  {
+    "case_id": "case_206290",
+    "type": "control",
+    "ground_truth_id": "34",
+    "ground_truth": "SLE"
+  },
+  {
+    "case_id": "case_217645",
+    "type": "control",
+    "ground_truth_id": "34",
+    "ground_truth": "SLE"
+  },
+  {
+    "case_id": "case_21915",
+    "type": "control",
+    "ground_truth_id": "34",
+    "ground_truth": "SLE"
+  },
+  {
+    "case_id": "case_34428",
+    "type": "control",
+    "ground_truth_id": "34",
+    "ground_truth": "SLE"
+  },
+  {
+    "case_id": "case_44261",
+    "type": "control",
+    "ground_truth_id": "34",
+    "ground_truth": "SLE"
+  },
+  {
+    "case_id": "case_47605",
+    "type": "control",
+    "ground_truth_id": "34",
+    "ground_truth": "SLE"
+  },
+  {
+    "case_id": "case_58142",
+    "type": "control",
+    "ground_truth_id": "34",
+    "ground_truth": "SLE"
+  },
+  {
+    "case_id": "case_66973",
+    "type": "control",
+    "ground_truth_id": "34",
+    "ground_truth": "SLE"
+  },
+  {
+    "case_id": "case_90290",
+    "type": "control",
+    "ground_truth_id": "34",
+    "ground_truth": "SLE"
+  },
+  {
+    "case_id": "case_95844",
+    "type": "control",
+    "ground_truth_id": "34",
+    "ground_truth": "SLE"
+  },
+  {
+    "case_id": "case_103116",
+    "type": "control",
+    "ground_truth_id": "35",
+    "ground_truth": "GERD"
+  },
+  {
+    "case_id": "case_112426",
+    "type": "control",
+    "ground_truth_id": "35",
+    "ground_truth": "GERD"
+  },
+  {
+    "case_id": "case_117333",
+    "type": "control",
+    "ground_truth_id": "35",
+    "ground_truth": "GERD"
+  },
+  {
+    "case_id": "case_119723",
+    "type": "control",
+    "ground_truth_id": "35",
+    "ground_truth": "GERD"
+  },
+  {
+    "case_id": "case_138740",
+    "type": "control",
+    "ground_truth_id": "35",
+    "ground_truth": "GERD"
+  },
+  {
+    "case_id": "case_176959",
+    "type": "control",
+    "ground_truth_id": "35",
+    "ground_truth": "GERD"
+  },
+  {
+    "case_id": "case_181394",
+    "type": "control",
+    "ground_truth_id": "35",
+    "ground_truth": "GERD"
+  },
+  {
+    "case_id": "case_201909",
+    "type": "control",
+    "ground_truth_id": "35",
+    "ground_truth": "GERD"
+  },
+  {
+    "case_id": "case_219172",
+    "type": "control",
+    "ground_truth_id": "35",
+    "ground_truth": "GERD"
+  },
+  {
+    "case_id": "case_226404",
+    "type": "control",
+    "ground_truth_id": "35",
+    "ground_truth": "GERD"
+  },
+  {
+    "case_id": "case_229415",
+    "type": "control",
+    "ground_truth_id": "35",
+    "ground_truth": "GERD"
+  },
+  {
+    "case_id": "case_27547",
+    "type": "control",
+    "ground_truth_id": "35",
+    "ground_truth": "GERD"
+  },
+  {
+    "case_id": "case_3466",
+    "type": "trap",
+    "ground_truth_id": "35",
+    "ground_truth": "GERD"
+  },
+  {
+    "case_id": "case_35383",
+    "type": "control",
+    "ground_truth_id": "35",
+    "ground_truth": "GERD"
+  },
+  {
+    "case_id": "case_35735",
+    "type": "trap",
+    "ground_truth_id": "35",
+    "ground_truth": "GERD"
+  },
+  {
+    "case_id": "case_38768",
+    "type": "control",
+    "ground_truth_id": "35",
+    "ground_truth": "GERD"
+  },
+  {
+    "case_id": "case_64956",
+    "type": "trap",
+    "ground_truth_id": "35",
+    "ground_truth": "GERD"
+  },
+  {
+    "case_id": "case_67066",
+    "type": "control",
+    "ground_truth_id": "35",
+    "ground_truth": "GERD"
+  },
+  {
+    "case_id": "case_81074",
+    "type": "control",
+    "ground_truth_id": "35",
+    "ground_truth": "GERD"
+  },
+  {
+    "case_id": "case_85377",
+    "type": "control",
+    "ground_truth_id": "35",
+    "ground_truth": "GERD"
+  },
+  {
+    "case_id": "case_112673",
+    "type": "trap",
+    "ground_truth_id": "36",
+    "ground_truth": "Anemia"
+  },
+  {
+    "case_id": "case_13556",
+    "type": "trap",
+    "ground_truth_id": "36",
+    "ground_truth": "Anemia"
+  },
+  {
+    "case_id": "case_154152",
+    "type": "trap",
+    "ground_truth_id": "36",
+    "ground_truth": "Anemia"
+  },
+  {
+    "case_id": "case_156811",
+    "type": "trap",
+    "ground_truth_id": "36",
+    "ground_truth": "Anemia"
+  },
+  {
+    "case_id": "case_158675",
+    "type": "trap",
+    "ground_truth_id": "36",
+    "ground_truth": "Anemia"
+  },
+  {
+    "case_id": "case_163477",
+    "type": "trap",
+    "ground_truth_id": "36",
+    "ground_truth": "Anemia"
+  },
+  {
+    "case_id": "case_175097",
+    "type": "trap",
+    "ground_truth_id": "36",
+    "ground_truth": "Anemia"
+  },
+  {
+    "case_id": "case_179406",
+    "type": "trap",
+    "ground_truth_id": "36",
+    "ground_truth": "Anemia"
+  },
+  {
+    "case_id": "case_221368",
+    "type": "trap",
+    "ground_truth_id": "36",
+    "ground_truth": "Anemia"
+  },
+  {
+    "case_id": "case_22295",
+    "type": "trap",
+    "ground_truth_id": "36",
+    "ground_truth": "Anemia"
+  },
+  {
+    "case_id": "case_232079",
+    "type": "trap",
+    "ground_truth_id": "36",
+    "ground_truth": "Anemia"
+  },
+  {
+    "case_id": "case_3065",
+    "type": "trap",
+    "ground_truth_id": "36",
+    "ground_truth": "Anemia"
+  },
+  {
+    "case_id": "case_33119",
+    "type": "control",
+    "ground_truth_id": "36",
+    "ground_truth": "Anemia"
+  },
+  {
+    "case_id": "case_34375",
+    "type": "trap",
+    "ground_truth_id": "36",
+    "ground_truth": "Anemia"
+  },
+  {
+    "case_id": "case_35453",
+    "type": "trap",
+    "ground_truth_id": "36",
+    "ground_truth": "Anemia"
+  },
+  {
+    "case_id": "case_35906",
+    "type": "trap",
+    "ground_truth_id": "36",
+    "ground_truth": "Anemia"
+  },
+  {
+    "case_id": "case_412829",
+    "type": "control",
+    "ground_truth_id": "36",
+    "ground_truth": "Anemia"
+  },
+  {
+    "case_id": "case_843861",
+    "type": "control",
+    "ground_truth_id": "36",
+    "ground_truth": "Anemia"
+  },
+  {
+    "case_id": "case_90673",
+    "type": "trap",
+    "ground_truth_id": "36",
+    "ground_truth": "Anemia"
+  },
+  {
+    "case_id": "case_9637",
+    "type": "trap",
+    "ground_truth_id": "36",
+    "ground_truth": "Anemia"
+  },
+  {
+    "case_id": "case_110540",
+    "type": "control",
+    "ground_truth_id": "37",
+    "ground_truth": "Cluster headache"
+  },
+  {
+    "case_id": "case_12268",
+    "type": "trap",
+    "ground_truth_id": "37",
+    "ground_truth": "Cluster headache"
+  },
+  {
+    "case_id": "case_149470",
+    "type": "trap",
+    "ground_truth_id": "37",
+    "ground_truth": "Cluster headache"
+  },
+  {
+    "case_id": "case_152452",
+    "type": "trap",
+    "ground_truth_id": "37",
+    "ground_truth": "Cluster headache"
+  },
+  {
+    "case_id": "case_28662",
+    "type": "trap",
+    "ground_truth_id": "37",
+    "ground_truth": "Cluster headache"
+  },
+  {
+    "case_id": "case_35373",
+    "type": "trap",
+    "ground_truth_id": "37",
+    "ground_truth": "Cluster headache"
+  },
+  {
+    "case_id": "case_37320",
+    "type": "trap",
+    "ground_truth_id": "37",
+    "ground_truth": "Cluster headache"
+  },
+  {
+    "case_id": "case_435925",
+    "type": "trap",
+    "ground_truth_id": "37",
+    "ground_truth": "Cluster headache"
+  },
+  {
+    "case_id": "case_44312",
+    "type": "trap",
+    "ground_truth_id": "37",
+    "ground_truth": "Cluster headache"
+  },
+  {
+    "case_id": "case_100709",
+    "type": "trap",
+    "ground_truth_id": "39",
+    "ground_truth": "Anaphylaxis"
+  },
+  {
+    "case_id": "case_139986",
+    "type": "trap",
+    "ground_truth_id": "39",
+    "ground_truth": "Anaphylaxis"
+  },
+  {
+    "case_id": "case_143302",
+    "type": "control",
+    "ground_truth_id": "39",
+    "ground_truth": "Anaphylaxis"
+  },
+  {
+    "case_id": "case_143309",
+    "type": "control",
+    "ground_truth_id": "39",
+    "ground_truth": "Anaphylaxis"
+  },
+  {
+    "case_id": "case_149021",
+    "type": "trap",
+    "ground_truth_id": "39",
+    "ground_truth": "Anaphylaxis"
+  },
+  {
+    "case_id": "case_150996",
+    "type": "trap",
+    "ground_truth_id": "39",
+    "ground_truth": "Anaphylaxis"
+  },
+  {
+    "case_id": "case_158540",
+    "type": "control",
+    "ground_truth_id": "39",
+    "ground_truth": "Anaphylaxis"
+  },
+  {
+    "case_id": "case_173187",
+    "type": "trap",
+    "ground_truth_id": "39",
+    "ground_truth": "Anaphylaxis"
+  },
+  {
+    "case_id": "case_232291",
+    "type": "trap",
+    "ground_truth_id": "39",
+    "ground_truth": "Anaphylaxis"
+  },
+  {
+    "case_id": "case_23934",
+    "type": "trap",
+    "ground_truth_id": "39",
+    "ground_truth": "Anaphylaxis"
+  },
+  {
+    "case_id": "case_412829",
+    "type": "trap",
+    "ground_truth_id": "39",
+    "ground_truth": "Anaphylaxis"
+  },
+  {
+    "case_id": "case_42128",
+    "type": "trap",
+    "ground_truth_id": "39",
+    "ground_truth": "Anaphylaxis"
+  },
+  {
+    "case_id": "case_44284",
+    "type": "trap",
+    "ground_truth_id": "39",
+    "ground_truth": "Anaphylaxis"
+  },
+  {
+    "case_id": "case_476784",
+    "type": "trap",
+    "ground_truth_id": "39",
+    "ground_truth": "Anaphylaxis"
+  },
+  {
+    "case_id": "case_484659",
+    "type": "trap",
+    "ground_truth_id": "39",
+    "ground_truth": "Anaphylaxis"
+  },
+  {
+    "case_id": "case_65020",
+    "type": "trap",
+    "ground_truth_id": "39",
+    "ground_truth": "Anaphylaxis"
+  },
+  {
+    "case_id": "case_68219",
+    "type": "trap",
+    "ground_truth_id": "39",
+    "ground_truth": "Anaphylaxis"
+  },
+  {
+    "case_id": "case_87605",
+    "type": "trap",
+    "ground_truth_id": "39",
+    "ground_truth": "Anaphylaxis"
+  },
+  {
+    "case_id": "case_93978",
+    "type": "control",
+    "ground_truth_id": "39",
+    "ground_truth": "Anaphylaxis"
+  },
+  {
+    "case_id": "case_10424",
+    "type": "trap",
+    "ground_truth_id": "40",
+    "ground_truth": "Atrial fibrillation"
+  },
+  {
+    "case_id": "case_111675",
+    "type": "trap",
+    "ground_truth_id": "40",
+    "ground_truth": "Atrial fibrillation"
+  },
+  {
+    "case_id": "case_124533",
+    "type": "trap",
+    "ground_truth_id": "40",
+    "ground_truth": "Atrial fibrillation"
+  },
+  {
+    "case_id": "case_13691",
+    "type": "trap",
+    "ground_truth_id": "40",
+    "ground_truth": "Atrial fibrillation"
+  },
+  {
+    "case_id": "case_140855",
+    "type": "trap",
+    "ground_truth_id": "40",
+    "ground_truth": "Atrial fibrillation"
+  },
+  {
+    "case_id": "case_141927",
+    "type": "control",
+    "ground_truth_id": "40",
+    "ground_truth": "Atrial fibrillation"
+  },
+  {
+    "case_id": "case_14946",
+    "type": "control",
+    "ground_truth_id": "40",
+    "ground_truth": "Atrial fibrillation"
+  },
+  {
+    "case_id": "case_187154",
+    "type": "control",
+    "ground_truth_id": "40",
+    "ground_truth": "Atrial fibrillation"
+  },
+  {
+    "case_id": "case_228801",
+    "type": "control",
+    "ground_truth_id": "40",
+    "ground_truth": "Atrial fibrillation"
+  },
+  {
+    "case_id": "case_31615",
+    "type": "control",
+    "ground_truth_id": "40",
+    "ground_truth": "Atrial fibrillation"
+  },
+  {
+    "case_id": "case_32978",
+    "type": "control",
+    "ground_truth_id": "40",
+    "ground_truth": "Atrial fibrillation"
+  },
+  {
+    "case_id": "case_33081",
+    "type": "control",
+    "ground_truth_id": "40",
+    "ground_truth": "Atrial fibrillation"
+  },
+  {
+    "case_id": "case_34673",
+    "type": "trap",
+    "ground_truth_id": "40",
+    "ground_truth": "Atrial fibrillation"
+  },
+  {
+    "case_id": "case_39255",
+    "type": "control",
+    "ground_truth_id": "40",
+    "ground_truth": "Atrial fibrillation"
+  },
+  {
+    "case_id": "case_46290",
+    "type": "trap",
+    "ground_truth_id": "40",
+    "ground_truth": "Atrial fibrillation"
+  },
+  {
+    "case_id": "case_59907",
+    "type": "control",
+    "ground_truth_id": "40",
+    "ground_truth": "Atrial fibrillation"
+  },
+  {
+    "case_id": "case_64373",
+    "type": "control",
+    "ground_truth_id": "40",
+    "ground_truth": "Atrial fibrillation"
+  },
+  {
+    "case_id": "case_6901",
+    "type": "trap",
+    "ground_truth_id": "40",
+    "ground_truth": "Atrial fibrillation"
+  },
+  {
+    "case_id": "case_76629",
+    "type": "trap",
+    "ground_truth_id": "40",
+    "ground_truth": "Atrial fibrillation"
+  },
+  {
+    "case_id": "case_90475",
+    "type": "control",
+    "ground_truth_id": "40",
+    "ground_truth": "Atrial fibrillation"
+  },
+  {
+    "case_id": "case_103126",
+    "type": "control",
+    "ground_truth_id": "41",
+    "ground_truth": "Acute pulmonary edema"
+  },
+  {
+    "case_id": "case_115408",
+    "type": "trap",
+    "ground_truth_id": "41",
+    "ground_truth": "Acute pulmonary edema"
+  },
+  {
+    "case_id": "case_116903",
+    "type": "control",
+    "ground_truth_id": "41",
+    "ground_truth": "Acute pulmonary edema"
+  },
+  {
+    "case_id": "case_125345",
+    "type": "trap",
+    "ground_truth_id": "41",
+    "ground_truth": "Acute pulmonary edema"
+  },
+  {
+    "case_id": "case_125641",
+    "type": "control",
+    "ground_truth_id": "41",
+    "ground_truth": "Acute pulmonary edema"
+  },
+  {
+    "case_id": "case_13728",
+    "type": "control",
+    "ground_truth_id": "41",
+    "ground_truth": "Acute pulmonary edema"
+  },
+  {
+    "case_id": "case_151487",
+    "type": "trap",
+    "ground_truth_id": "41",
+    "ground_truth": "Acute pulmonary edema"
+  },
+  {
+    "case_id": "case_152464",
+    "type": "trap",
+    "ground_truth_id": "41",
+    "ground_truth": "Acute pulmonary edema"
+  },
+  {
+    "case_id": "case_162085",
+    "type": "trap",
+    "ground_truth_id": "41",
+    "ground_truth": "Acute pulmonary edema"
+  },
+  {
+    "case_id": "case_162691",
+    "type": "control",
+    "ground_truth_id": "41",
+    "ground_truth": "Acute pulmonary edema"
+  },
+  {
+    "case_id": "case_185091",
+    "type": "control",
+    "ground_truth_id": "41",
+    "ground_truth": "Acute pulmonary edema"
+  },
+  {
+    "case_id": "case_191296",
+    "type": "trap",
+    "ground_truth_id": "41",
+    "ground_truth": "Acute pulmonary edema"
+  },
+  {
+    "case_id": "case_192328",
+    "type": "trap",
+    "ground_truth_id": "41",
+    "ground_truth": "Acute pulmonary edema"
+  },
+  {
+    "case_id": "case_196167",
+    "type": "control",
+    "ground_truth_id": "41",
+    "ground_truth": "Acute pulmonary edema"
+  },
+  {
+    "case_id": "case_31349",
+    "type": "control",
+    "ground_truth_id": "41",
+    "ground_truth": "Acute pulmonary edema"
+  },
+  {
+    "case_id": "case_3487",
+    "type": "trap",
+    "ground_truth_id": "41",
+    "ground_truth": "Acute pulmonary edema"
+  },
+  {
+    "case_id": "case_40444",
+    "type": "control",
+    "ground_truth_id": "41",
+    "ground_truth": "Acute pulmonary edema"
+  },
+  {
+    "case_id": "case_41894",
+    "type": "control",
+    "ground_truth_id": "41",
+    "ground_truth": "Acute pulmonary edema"
+  },
+  {
+    "case_id": "case_71683",
+    "type": "control",
+    "ground_truth_id": "41",
+    "ground_truth": "Acute pulmonary edema"
+  },
+  {
+    "case_id": "case_91164",
+    "type": "control",
+    "ground_truth_id": "41",
+    "ground_truth": "Acute pulmonary edema"
+  },
+  {
+    "case_id": "case_121837",
+    "type": "control",
+    "ground_truth_id": "42",
+    "ground_truth": "Acute laryngitis"
+  },
+  {
+    "case_id": "case_137520",
+    "type": "control",
+    "ground_truth_id": "42",
+    "ground_truth": "Acute laryngitis"
+  },
+  {
+    "case_id": "case_176097",
+    "type": "control",
+    "ground_truth_id": "42",
+    "ground_truth": "Acute laryngitis"
+  },
+  {
+    "case_id": "case_185177",
+    "type": "control",
+    "ground_truth_id": "42",
+    "ground_truth": "Acute laryngitis"
+  },
+  {
+    "case_id": "case_188042",
+    "type": "control",
+    "ground_truth_id": "42",
+    "ground_truth": "Acute laryngitis"
+  },
+  {
+    "case_id": "case_192",
+    "type": "control",
+    "ground_truth_id": "42",
+    "ground_truth": "Acute laryngitis"
+  },
+  {
+    "case_id": "case_196476",
+    "type": "control",
+    "ground_truth_id": "42",
+    "ground_truth": "Acute laryngitis"
+  },
+  {
+    "case_id": "case_201998",
+    "type": "control",
+    "ground_truth_id": "42",
+    "ground_truth": "Acute laryngitis"
+  },
+  {
+    "case_id": "case_202814",
+    "type": "control",
+    "ground_truth_id": "42",
+    "ground_truth": "Acute laryngitis"
+  },
+  {
+    "case_id": "case_203267",
+    "type": "control",
+    "ground_truth_id": "42",
+    "ground_truth": "Acute laryngitis"
+  },
+  {
+    "case_id": "case_217949",
+    "type": "control",
+    "ground_truth_id": "42",
+    "ground_truth": "Acute laryngitis"
+  },
+  {
+    "case_id": "case_232264",
+    "type": "control",
+    "ground_truth_id": "42",
+    "ground_truth": "Acute laryngitis"
+  },
+  {
+    "case_id": "case_3184",
+    "type": "control",
+    "ground_truth_id": "42",
+    "ground_truth": "Acute laryngitis"
+  },
+  {
+    "case_id": "case_46162",
+    "type": "control",
+    "ground_truth_id": "42",
+    "ground_truth": "Acute laryngitis"
+  },
+  {
+    "case_id": "case_46964",
+    "type": "control",
+    "ground_truth_id": "42",
+    "ground_truth": "Acute laryngitis"
+  },
+  {
+    "case_id": "case_51417",
+    "type": "control",
+    "ground_truth_id": "42",
+    "ground_truth": "Acute laryngitis"
+  },
+  {
+    "case_id": "case_58878",
+    "type": "control",
+    "ground_truth_id": "42",
+    "ground_truth": "Acute laryngitis"
+  },
+  {
+    "case_id": "case_60220",
+    "type": "control",
+    "ground_truth_id": "42",
+    "ground_truth": "Acute laryngitis"
+  },
+  {
+    "case_id": "case_65735",
+    "type": "control",
+    "ground_truth_id": "42",
+    "ground_truth": "Acute laryngitis"
+  },
+  {
+    "case_id": "case_91679",
+    "type": "control",
+    "ground_truth_id": "42",
+    "ground_truth": "Acute laryngitis"
+  },
+  {
+    "case_id": "case_105698",
+    "type": "trap",
+    "ground_truth_id": "43",
+    "ground_truth": "Acute dystonic reactions"
+  },
+  {
+    "case_id": "case_15962",
+    "type": "trap",
+    "ground_truth_id": "43",
+    "ground_truth": "Acute dystonic reactions"
+  },
+  {
+    "case_id": "case_169627",
+    "type": "trap",
+    "ground_truth_id": "43",
+    "ground_truth": "Acute dystonic reactions"
+  },
+  {
+    "case_id": "case_176417",
+    "type": "trap",
+    "ground_truth_id": "43",
+    "ground_truth": "Acute dystonic reactions"
+  },
+  {
+    "case_id": "case_190809",
+    "type": "trap",
+    "ground_truth_id": "43",
+    "ground_truth": "Acute dystonic reactions"
+  },
+  {
+    "case_id": "case_224669",
+    "type": "trap",
+    "ground_truth_id": "43",
+    "ground_truth": "Acute dystonic reactions"
+  },
+  {
+    "case_id": "case_30689",
+    "type": "trap",
+    "ground_truth_id": "43",
+    "ground_truth": "Acute dystonic reactions"
+  },
+  {
+    "case_id": "case_42536",
+    "type": "control",
+    "ground_truth_id": "43",
+    "ground_truth": "Acute dystonic reactions"
+  },
+  {
+    "case_id": "case_42702",
+    "type": "trap",
+    "ground_truth_id": "43",
+    "ground_truth": "Acute dystonic reactions"
+  },
+  {
+    "case_id": "case_4299",
+    "type": "trap",
+    "ground_truth_id": "43",
+    "ground_truth": "Acute dystonic reactions"
+  },
+  {
+    "case_id": "case_46746",
+    "type": "trap",
+    "ground_truth_id": "43",
+    "ground_truth": "Acute dystonic reactions"
+  },
+  {
+    "case_id": "case_48155",
+    "type": "trap",
+    "ground_truth_id": "43",
+    "ground_truth": "Acute dystonic reactions"
+  },
+  {
+    "case_id": "case_61501",
+    "type": "control",
+    "ground_truth_id": "43",
+    "ground_truth": "Acute dystonic reactions"
+  },
+  {
+    "case_id": "case_64210",
+    "type": "trap",
+    "ground_truth_id": "43",
+    "ground_truth": "Acute dystonic reactions"
+  },
+  {
+    "case_id": "case_67847",
+    "type": "trap",
+    "ground_truth_id": "43",
+    "ground_truth": "Acute dystonic reactions"
+  },
+  {
+    "case_id": "case_72385",
+    "type": "trap",
+    "ground_truth_id": "43",
+    "ground_truth": "Acute dystonic reactions"
+  },
+  {
+    "case_id": "case_72852",
+    "type": "trap",
+    "ground_truth_id": "43",
+    "ground_truth": "Acute dystonic reactions"
+  },
+  {
+    "case_id": "case_76723",
+    "type": "trap",
+    "ground_truth_id": "43",
+    "ground_truth": "Acute dystonic reactions"
+  },
+  {
+    "case_id": "case_97213",
+    "type": "trap",
+    "ground_truth_id": "43",
+    "ground_truth": "Acute dystonic reactions"
+  },
+  {
+    "case_id": "case_99589",
+    "type": "trap",
+    "ground_truth_id": "43",
+    "ground_truth": "Acute dystonic reactions"
+  },
+  {
+    "case_id": "case_115552",
+    "type": "control",
+    "ground_truth_id": "44",
+    "ground_truth": "Boerhaave"
+  },
+  {
+    "case_id": "case_118394",
+    "type": "control",
+    "ground_truth_id": "44",
+    "ground_truth": "Boerhaave"
+  },
+  {
+    "case_id": "case_1192",
+    "type": "control",
+    "ground_truth_id": "44",
+    "ground_truth": "Boerhaave"
+  },
+  {
+    "case_id": "case_12041",
+    "type": "control",
+    "ground_truth_id": "44",
+    "ground_truth": "Boerhaave"
+  },
+  {
+    "case_id": "case_125575",
+    "type": "control",
+    "ground_truth_id": "44",
+    "ground_truth": "Boerhaave"
+  },
+  {
+    "case_id": "case_152729",
+    "type": "control",
+    "ground_truth_id": "44",
+    "ground_truth": "Boerhaave"
+  },
+  {
+    "case_id": "case_153210",
+    "type": "control",
+    "ground_truth_id": "44",
+    "ground_truth": "Boerhaave"
+  },
+  {
+    "case_id": "case_155962",
+    "type": "control",
+    "ground_truth_id": "44",
+    "ground_truth": "Boerhaave"
+  },
+  {
+    "case_id": "case_165550",
+    "type": "control",
+    "ground_truth_id": "44",
+    "ground_truth": "Boerhaave"
+  },
+  {
+    "case_id": "case_177976",
+    "type": "control",
+    "ground_truth_id": "44",
+    "ground_truth": "Boerhaave"
+  },
+  {
+    "case_id": "case_183603",
+    "type": "control",
+    "ground_truth_id": "44",
+    "ground_truth": "Boerhaave"
+  },
+  {
+    "case_id": "case_190088",
+    "type": "control",
+    "ground_truth_id": "44",
+    "ground_truth": "Boerhaave"
+  },
+  {
+    "case_id": "case_191768",
+    "type": "control",
+    "ground_truth_id": "44",
+    "ground_truth": "Boerhaave"
+  },
+  {
+    "case_id": "case_206532",
+    "type": "control",
+    "ground_truth_id": "44",
+    "ground_truth": "Boerhaave"
+  },
+  {
+    "case_id": "case_25682",
+    "type": "control",
+    "ground_truth_id": "44",
+    "ground_truth": "Boerhaave"
+  },
+  {
+    "case_id": "case_31933",
+    "type": "control",
+    "ground_truth_id": "44",
+    "ground_truth": "Boerhaave"
+  },
+  {
+    "case_id": "case_42994",
+    "type": "control",
+    "ground_truth_id": "44",
+    "ground_truth": "Boerhaave"
+  },
+  {
+    "case_id": "case_50232",
+    "type": "control",
+    "ground_truth_id": "44",
+    "ground_truth": "Boerhaave"
+  },
+  {
+    "case_id": "case_72881",
+    "type": "control",
+    "ground_truth_id": "44",
+    "ground_truth": "Boerhaave"
+  },
+  {
+    "case_id": "case_93023",
+    "type": "control",
+    "ground_truth_id": "44",
+    "ground_truth": "Boerhaave"
+  },
+  {
+    "case_id": "case_102895",
+    "type": "control",
+    "ground_truth_id": "45",
+    "ground_truth": "Pneumonia"
+  },
+  {
+    "case_id": "case_106184",
+    "type": "control",
+    "ground_truth_id": "45",
+    "ground_truth": "Pneumonia"
+  },
+  {
+    "case_id": "case_121197",
+    "type": "control",
+    "ground_truth_id": "45",
+    "ground_truth": "Pneumonia"
+  },
+  {
+    "case_id": "case_150283",
+    "type": "control",
+    "ground_truth_id": "45",
+    "ground_truth": "Pneumonia"
+  },
+  {
+    "case_id": "case_168697",
+    "type": "trap",
+    "ground_truth_id": "45",
+    "ground_truth": "Pneumonia"
+  },
+  {
+    "case_id": "case_17131",
+    "type": "control",
+    "ground_truth_id": "45",
+    "ground_truth": "Pneumonia"
+  },
+  {
+    "case_id": "case_176114",
+    "type": "control",
+    "ground_truth_id": "45",
+    "ground_truth": "Pneumonia"
+  },
+  {
+    "case_id": "case_183158",
+    "type": "trap",
+    "ground_truth_id": "45",
+    "ground_truth": "Pneumonia"
+  },
+  {
+    "case_id": "case_190577",
+    "type": "control",
+    "ground_truth_id": "45",
+    "ground_truth": "Pneumonia"
+  },
+  {
+    "case_id": "case_19986",
+    "type": "trap",
+    "ground_truth_id": "45",
+    "ground_truth": "Pneumonia"
+  },
+  {
+    "case_id": "case_205460",
+    "type": "control",
+    "ground_truth_id": "45",
+    "ground_truth": "Pneumonia"
+  },
+  {
+    "case_id": "case_225577",
+    "type": "trap",
+    "ground_truth_id": "45",
+    "ground_truth": "Pneumonia"
+  },
+  {
+    "case_id": "case_46905",
+    "type": "trap",
+    "ground_truth_id": "45",
+    "ground_truth": "Pneumonia"
+  },
+  {
+    "case_id": "case_50683",
+    "type": "control",
+    "ground_truth_id": "45",
+    "ground_truth": "Pneumonia"
+  },
+  {
+    "case_id": "case_56118",
+    "type": "trap",
+    "ground_truth_id": "45",
+    "ground_truth": "Pneumonia"
+  },
+  {
+    "case_id": "case_5970",
+    "type": "trap",
+    "ground_truth_id": "45",
+    "ground_truth": "Pneumonia"
+  },
+  {
+    "case_id": "case_78932",
+    "type": "trap",
+    "ground_truth_id": "45",
+    "ground_truth": "Pneumonia"
+  },
+  {
+    "case_id": "case_86318",
+    "type": "control",
+    "ground_truth_id": "45",
+    "ground_truth": "Pneumonia"
+  },
+  {
+    "case_id": "case_904",
+    "type": "control",
+    "ground_truth_id": "45",
+    "ground_truth": "Pneumonia"
+  },
+  {
+    "case_id": "case_96328",
+    "type": "control",
+    "ground_truth_id": "45",
+    "ground_truth": "Pneumonia"
+  },
+  {
+    "case_id": "case_107255",
+    "type": "control",
+    "ground_truth_id": "46",
+    "ground_truth": "Tuberculosis"
+  },
+  {
+    "case_id": "case_11470",
+    "type": "control",
+    "ground_truth_id": "46",
+    "ground_truth": "Tuberculosis"
+  },
+  {
+    "case_id": "case_124488",
+    "type": "control",
+    "ground_truth_id": "46",
+    "ground_truth": "Tuberculosis"
+  },
+  {
+    "case_id": "case_139393",
+    "type": "control",
+    "ground_truth_id": "46",
+    "ground_truth": "Tuberculosis"
+  },
+  {
+    "case_id": "case_1480",
+    "type": "control",
+    "ground_truth_id": "46",
+    "ground_truth": "Tuberculosis"
+  },
+  {
+    "case_id": "case_161307",
+    "type": "control",
+    "ground_truth_id": "46",
+    "ground_truth": "Tuberculosis"
+  },
+  {
+    "case_id": "case_172934",
+    "type": "control",
+    "ground_truth_id": "46",
+    "ground_truth": "Tuberculosis"
+  },
+  {
+    "case_id": "case_20512",
+    "type": "control",
+    "ground_truth_id": "46",
+    "ground_truth": "Tuberculosis"
+  },
+  {
+    "case_id": "case_22143",
+    "type": "control",
+    "ground_truth_id": "46",
+    "ground_truth": "Tuberculosis"
+  },
+  {
+    "case_id": "case_226585",
+    "type": "control",
+    "ground_truth_id": "46",
+    "ground_truth": "Tuberculosis"
+  },
+  {
+    "case_id": "case_231884",
+    "type": "control",
+    "ground_truth_id": "46",
+    "ground_truth": "Tuberculosis"
+  },
+  {
+    "case_id": "case_31587",
+    "type": "control",
+    "ground_truth_id": "46",
+    "ground_truth": "Tuberculosis"
+  },
+  {
+    "case_id": "case_3581",
+    "type": "trap",
+    "ground_truth_id": "46",
+    "ground_truth": "Tuberculosis"
+  },
+  {
+    "case_id": "case_41358",
+    "type": "control",
+    "ground_truth_id": "46",
+    "ground_truth": "Tuberculosis"
+  },
+  {
+    "case_id": "case_50517",
+    "type": "control",
+    "ground_truth_id": "46",
+    "ground_truth": "Tuberculosis"
+  },
+  {
+    "case_id": "case_7058",
+    "type": "trap",
+    "ground_truth_id": "46",
+    "ground_truth": "Tuberculosis"
+  },
+  {
+    "case_id": "case_85598",
+    "type": "control",
+    "ground_truth_id": "46",
+    "ground_truth": "Tuberculosis"
+  },
+  {
+    "case_id": "case_9695",
+    "type": "control",
+    "ground_truth_id": "46",
+    "ground_truth": "Tuberculosis"
+  },
+  {
+    "case_id": "case_97006",
+    "type": "control",
+    "ground_truth_id": "46",
+    "ground_truth": "Tuberculosis"
+  },
+  {
+    "case_id": "case_99402",
+    "type": "control",
+    "ground_truth_id": "46",
+    "ground_truth": "Tuberculosis"
+  },
+  {
+    "case_id": "case_109971",
+    "type": "control",
+    "ground_truth_id": "48",
+    "ground_truth": "Unstable angina"
+  },
+  {
+    "case_id": "case_12101",
+    "type": "trap",
+    "ground_truth_id": "48",
+    "ground_truth": "Unstable angina"
+  },
+  {
+    "case_id": "case_125166",
+    "type": "control",
+    "ground_truth_id": "48",
+    "ground_truth": "Unstable angina"
+  },
+  {
+    "case_id": "case_125426",
+    "type": "trap",
+    "ground_truth_id": "48",
+    "ground_truth": "Unstable angina"
+  },
+  {
+    "case_id": "case_128444",
+    "type": "trap",
+    "ground_truth_id": "48",
+    "ground_truth": "Unstable angina"
+  },
+  {
+    "case_id": "case_155343",
+    "type": "trap",
+    "ground_truth_id": "48",
+    "ground_truth": "Unstable angina"
+  },
+  {
+    "case_id": "case_16136",
+    "type": "trap",
+    "ground_truth_id": "48",
+    "ground_truth": "Unstable angina"
+  },
+  {
+    "case_id": "case_172510",
+    "type": "control",
+    "ground_truth_id": "48",
+    "ground_truth": "Unstable angina"
+  },
+  {
+    "case_id": "case_200280",
+    "type": "control",
+    "ground_truth_id": "48",
+    "ground_truth": "Unstable angina"
+  },
+  {
+    "case_id": "case_249",
+    "type": "trap",
+    "ground_truth_id": "48",
+    "ground_truth": "Unstable angina"
+  },
+  {
+    "case_id": "case_33152",
+    "type": "control",
+    "ground_truth_id": "48",
+    "ground_truth": "Unstable angina"
+  },
+  {
+    "case_id": "case_4770",
+    "type": "control",
+    "ground_truth_id": "48",
+    "ground_truth": "Unstable angina"
+  },
+  {
+    "case_id": "case_51802",
+    "type": "control",
+    "ground_truth_id": "48",
+    "ground_truth": "Unstable angina"
+  },
+  {
+    "case_id": "case_5649",
+    "type": "trap",
+    "ground_truth_id": "48",
+    "ground_truth": "Unstable angina"
+  },
+  {
+    "case_id": "case_6237",
+    "type": "control",
+    "ground_truth_id": "48",
+    "ground_truth": "Unstable angina"
+  },
+  {
+    "case_id": "case_62568",
+    "type": "trap",
+    "ground_truth_id": "48",
+    "ground_truth": "Unstable angina"
+  },
+  {
+    "case_id": "case_74265",
+    "type": "control",
+    "ground_truth_id": "48",
+    "ground_truth": "Unstable angina"
+  },
+  {
+    "case_id": "case_82208",
+    "type": "trap",
+    "ground_truth_id": "48",
+    "ground_truth": "Unstable angina"
+  },
+  {
+    "case_id": "case_8400",
+    "type": "trap",
+    "ground_truth_id": "48",
+    "ground_truth": "Unstable angina"
+  },
+  {
+    "case_id": "case_97890",
+    "type": "trap",
+    "ground_truth_id": "48",
+    "ground_truth": "Unstable angina"
+  },
+  {
+    "case_id": "case_139986",
+    "type": "control",
+    "ground_truth_id": "49",
+    "ground_truth": "Scombroid food poisoning"
+  },
+  {
+    "case_id": "case_149021",
+    "type": "control",
+    "ground_truth_id": "49",
+    "ground_truth": "Scombroid food poisoning"
+  },
+  {
+    "case_id": "case_150996",
+    "type": "control",
+    "ground_truth_id": "49",
+    "ground_truth": "Scombroid food poisoning"
+  },
+  {
+    "case_id": "case_173187",
+    "type": "control",
+    "ground_truth_id": "49",
+    "ground_truth": "Scombroid food poisoning"
+  },
+  {
+    "case_id": "case_232291",
+    "type": "control",
+    "ground_truth_id": "49",
+    "ground_truth": "Scombroid food poisoning"
+  },
+  {
+    "case_id": "case_23934",
+    "type": "control",
+    "ground_truth_id": "49",
+    "ground_truth": "Scombroid food poisoning"
+  },
+  {
+    "case_id": "case_42128",
+    "type": "control",
+    "ground_truth_id": "49",
+    "ground_truth": "Scombroid food poisoning"
+  },
+  {
+    "case_id": "case_44284",
+    "type": "control",
+    "ground_truth_id": "49",
+    "ground_truth": "Scombroid food poisoning"
+  },
+  {
+    "case_id": "case_65020",
+    "type": "control",
+    "ground_truth_id": "49",
+    "ground_truth": "Scombroid food poisoning"
+  },
+  {
+    "case_id": "case_67976",
+    "type": "control",
+    "ground_truth_id": "49",
+    "ground_truth": "Scombroid food poisoning"
+  },
+  {
+    "case_id": "case_68219",
+    "type": "control",
+    "ground_truth_id": "49",
+    "ground_truth": "Scombroid food poisoning"
+  },
+  {
+    "case_id": "case_87605",
+    "type": "control",
+    "ground_truth_id": "49",
+    "ground_truth": "Scombroid food poisoning"
+  }
+]

@@ -1,0 +1,53 @@
+# Risk map for 49 diseases.
+# High risk: 18 diseases prioritized for fatal-conflict evidence.
+# Low risk: 31 other diseases.
+
+"01": { "name": "Possible NSTEMI / STEMI", "risk": "High" }
+"02": { "name": "Spontaneous rib fracture", "risk": "Low" }
+"03": { "name": "Pulmonary embolism", "risk": "High" }
+"04": { "name": "Pulmonary neoplasm", "risk": "Low" }
+"05": { "name": "URTI", "risk": "Low" }
+"06": { "name": "Croup", "risk": "Low" }
+"07": { "name": "Sarcoidosis", "risk": "Low" }
+"08": { "name": "HIV (initial infection)", "risk": "Low" }
+"09": { "name": "Inguinal hernia", "risk": "Low" }
+"10": { "name": "Spontaneous pneumothorax", "risk": "High" }
+"11": { "name": "Bronchospasm / acute asthma exacerbation", "risk": "High" }
+"12": { "name": "Viral pharyngitis", "risk": "Low" }
+"13": { "name": "Bronchiolitis", "risk": "Low" }
+"14": { "name": "Pancreatic neoplasm", "risk": "Low" }
+"15": { "name": "Guillain-Barré syndrome", "risk": "High" }
+"16": { "name": "Chagas", "risk": "Low" }
+"17": { "name": "Allergic sinusitis", "risk": "Low" }
+"18": { "name": "Acute rhinosinusitis", "risk": "Low" }
+"19": { "name": "PSVT", "risk": "High" }
+"20": { "name": "Panic attack", "risk": "Low" }
+"21": { "name": "Epiglottitis", "risk": "High" }
+"22": { "name": "Bronchiectasis", "risk": "Low" }
+"23": { "name": "Bronchitis", "risk": "Low" }
+"24": { "name": "Pericarditis", "risk": "Low" }
+"25": { "name": "Acute COPD exacerbation / infection", "risk": "High" }
+"26": { "name": "Ebola", "risk": "High" }
+"27": { "name": "Chronic rhinosinusitis", "risk": "Low" }
+"28": { "name": "Acute otitis media", "risk": "Low" }
+"29": { "name": "Larygospasm", "risk": "High" }
+"30": { "name": "Influenza", "risk": "Low" }
+"31": { "name": "Stable angina", "risk": "Low" }
+"32": { "name": "Myasthenia gravis", "risk": "Low" }
+"33": { "name": "Myocarditis", "risk": "High" }
+"34": { "name": "SLE", "risk": "Low" }
+"35": { "name": "GERD", "risk": "Low" }
+"36": { "name": "Anemia", "risk": "Low" }
+"37": { "name": "Cluster headache", "risk": "Low" }
+"38": { "name": "Localized edema", "risk": "Low" }
+"39": { "name": "Anaphylaxis", "risk": "High" }
+"40": { "name": "Atrial fibrillation", "risk": "High" }
+"41": { "name": "Acute pulmonary edema", "risk": "High" }
+"42": { "name": "Acute laryngitis", "risk": "Low" }
+"43": { "name": "Acute dystonic reactions", "risk": "Low" }
+"44": { "name": "Boerhaave", "risk": "High" }
+"45": { "name": "Pneumonia", "risk": "High" }
+"46": { "name": "Tuberculosis", "risk": "High" }
+"47": { "name": "Whooping cough", "risk": "Low" }
+"48": { "name": "Unstable angina", "risk": "High" }
+"49": { "name": "Scombroid food poisoning", "risk": "Low" }

@@ -1,0 +1,19 @@
+# ECR-Agent runtime dependencies
+# Python 3.10+ (dataset adapter uses union type annotations)
+
+# Core
+openai>=1.0.0
+
+# Configuration
+pyyaml>=6.0
+python-dotenv>=1.0.0
+
+# Utilities
+tqdm>=4.65.0
+numpy>=1.24
+rapidfuzz>=3.0
+
+# Phase 2 & 3: External Knowledge Search
+biopython>=1.80          # For PubMed Entrez API
+requests>=2.31.0         # For OpenTargets API
+networkx>=3.0            # For graph management
