@@ -1,68 +1,79 @@
-# MedEinst and ECR-Agent
+<div align="center">
 
-[![arXiv](https://img.shields.io/badge/arXiv-2601.06636-b31b1b.svg)](https://arxiv.org/abs/2601.06636)
-[![Dataset](https://img.shields.io/badge/Dataset-HuggingFace-yellow)](https://huggingface.co/datasets/zhui711/MedEinst)
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# MedEinst
 
-[Paper](https://arxiv.org/abs/2601.06636) · [Project page](https://zhui711.github.io/MedEinst/) · [MedEinst dataset](https://huggingface.co/datasets/zhui711/MedEinst) · [Illness Graphs](https://huggingface.co/datasets/zhui711/MedEinst-Illness-Graphs) · [Exemplar Base](https://huggingface.co/datasets/zhui711/MedEinst-Exemplar-Base)
+**Benchmarking the Einstellung Effect in Medical LLMs through Counterfactual Differential Diagnosis**
 
-This repository provides the main-method implementation of **ECR-Agent (Evidence-based Causal Reasoning Agent)** from *MedEinst: Benchmarking the Einstellung Effect in Medical LLMs through Counterfactual Differential Diagnosis* (ACL 2026). The MedEinst Benchmark Test Set contains 5,383 counterfactual pairs spanning 49 diseases. ECR-Agent combines case-level causal reasoning with knowledge and experience evolved from support cases. The public clinical narratives are derived and processed from [DDXPlus](https://github.com/mila-iqia/ddxplus); we thank its authors for releasing the source data.
+<p>
+  <a href="https://arxiv.org/abs/2601.06636"><img src="https://img.shields.io/badge/Paper-arXiv%3A2601.06636-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white" alt="arXiv Paper" /></a>
+  <a href="https://zhui711.github.io/MedEinst/"><img src="https://img.shields.io/badge/Project-Website-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Project Website" /></a>
+  <a href="https://huggingface.co/datasets/zhui711/MedEinst"><img src="https://img.shields.io/badge/Benchmark-Dataset-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="MedEinst Dataset" /></a>
+</p>
+<p>
+  <a href="https://huggingface.co/datasets/zhui711/MedEinst-Illness-Graphs"><img src="https://img.shields.io/badge/Illness-Graphs-0E7490?style=flat-square" alt="Illness Graphs" /></a>
+  <a href="https://huggingface.co/datasets/zhui711/MedEinst-Exemplar-Base"><img src="https://img.shields.io/badge/Exemplar-Base-7C3AED?style=flat-square" alt="Exemplar Base" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache--2.0-64748B?style=flat-square" alt="Apache-2.0 License" /></a>
+</p>
 
-## Method
+</div>
 
-**Dynamic Causal Inference (DCI)** uses Dual-Pathway Perception to generate diagnostic candidates and an objective problem representation. It initializes a causal graph, performs forward evidence retrieval and backward verification, then audits graph evidence and retrieved exemplars to produce a diagnosis.
+## Overview
 
-**Critic-Driven Graph & Memory Evolution (CGME)** processes support cases with the diagnostic pipeline, uses critic feedback to refine unsuccessful attempts, and stores validated evidence in disease-specific **Illness Graphs** and an **Exemplar Base**. Offline CGME builds graphs through live reasoning; Online DCI initializes from prebuilt graphs and continues live reasoning. See [architecture.md](docs/architecture.md) for the paper-to-code mapping.
+Large language models can favor familiar diagnoses even when patient-specific evidence points elsewhere—a manifestation of the **Einstellung Effect**. **MedEinst** studies this failure mode through counterfactual differential diagnosis and introduces **ECR-Agent (Evidence-based Causal Reasoning Agent)** to support more evidence-grounded diagnostic reasoning.
 
-## Installation and configuration
+This repository provides the **MedEinst benchmark resources and the main-method ECR-Agent source code**.
 
-Use Python **3.10+** in an environment of your choice, then install the listed Python dependencies:
+## 🧪 MedEinst Benchmark & Dataset
+
+MedEinst contains **5,383 counterfactual clinical case pairs spanning 49 diseases** in its benchmark test set. Each pair includes a *control* case and a *trap* case: discriminative evidence changes the correct diagnosis while much of the clinical context remains similar. The paper evaluates **17 LLMs** and measures diagnostic accuracy and susceptibility to this bias using **Baseline Accuracy, Robust Accuracy, and Bias Trap Rate**.
+
+| Resource | Contents | Purpose |
+| --- | --- | --- |
+| **Reference Set** (`train.jsonl`) | 10,689 case pairs | Training resource and support-case selection |
+| **Benchmark Test Set** (`test.jsonl`) | 5,383 case pairs · 49 diseases | Evaluation of diagnostic robustness and the Einstellung Effect |
+| **Balanced Seed Subset** (`data/medeinst_support_853.json`) | 853 individual case records | Fixed support selection for offline CGME |
+
+**Dataset:** [🤗 MedEinst on Hugging Face](https://huggingface.co/datasets/zhui711/MedEinst) · [Dataset interface](docs/dataset_interface.md)
+
+The clinical narratives are derived and processed from [DDXPlus](https://github.com/mila-iqia/ddxplus). We thank the DDXPlus authors for making their dataset available.
+
+## 🩺 ECR-Agent
+
+To mitigate the Einstellung Effect, the paper proposes **ECR-Agent**, which consists of two complementary components:
+
+**Dynamic Causal Inference (DCI).** Performs dual-pathway perception, causal graph initialization, forward evidence retrieval, backward verification, and evidence auditing to produce a diagnosis.
+
+**Critic-Driven Graph & Memory Evolution (CGME).** Uses support cases and critic feedback to evolve disease-specific **Illness Graphs** and an **Exemplar Base**. Offline CGME builds this knowledge from live reasoning; online DCI initializes from the prebuilt knowledge and continues evidence-based reasoning.
+
+See the [method architecture](docs/architecture.md) and the [project page](https://zhui711.github.io/MedEinst/) for the framework diagram.
+
+## ⚙️ Installation & Configuration
+
+Python 3.10+ is recommended. Install the repository dependencies:
 
 ```bash
 python -m pip install -r requirements.txt
 ```
 
-Set the base, critic, and embedding models and endpoints in `config/settings.yaml`, or pass `--config /path/to/settings.yaml`. The default `qwen3-32b` base model needs a compatible endpoint; the critic model is configurable. Keep credentials in environment variables.
+Configure your base LLM, critic, embedding model, and API endpoints in `config/settings.yaml`. A compatible model endpoint is required for the default `qwen3-32b` base model. Credentials should be supplied through environment variables; see [configuration.md](docs/configuration.md) for details.
 
-For example, with a compatible Qwen service and the official OpenAI API for critic and embeddings:
+## 🚀 Quickstart: Online ECR-Agent
+
+Download the Benchmark Test Set (`test.jsonl`), [Illness Graphs](https://huggingface.co/datasets/zhui711/MedEinst-Illness-Graphs), and [Exemplar Base](https://huggingface.co/datasets/zhui711/MedEinst-Exemplar-Base). Extract the prebuilt artifacts and configure the model services before running:
 
 ```bash
-export ECR_BASE_URL=https://your-compatible-service.example/v1
-export ECR_BASE_API_KEY=your-base-model-key
-export OPENAI_API_KEY=your-openai-key
-export PUBMED_EMAIL=you@example.org
+python scripts/run_ecr_agent.py \
+  --benchmark-set /path/to/test.jsonl \
+  --refined-graph-dir /path/to/golden_graphs_refined_1 \
+  --memory-bank-dir /path/to/memory_bank \
+  --output-dir /path/to/online_results
 ```
 
-The model roles can use separate endpoints and credentials. PubMed and OpenTargets provide external medical evidence. See [configuration.md](docs/configuration.md) for settings and the paper's GPT-5 critic setting.
+The runner writes case-level predictions to `results_detail.jsonl` and a run summary to `inference_summary.json`. See [artifact layout](docs/artifacts.md) for the expected files and directories. The three benchmark metrics are defined in the paper; a separate evaluation utility is not included in this agent release.
 
-## Quickstart: Online ECR-Agent with prebuilt artifacts
+## 🔄 Offline CGME: Build the Knowledge & Memory
 
-1. Download the **MedEinst Benchmark Test Set** (`test.jsonl`) from the [dataset repository](https://huggingface.co/datasets/zhui711/MedEinst). It contains flat control/trap records.
-2. Download and extract the [Illness Graphs](https://huggingface.co/datasets/zhui711/MedEinst-Illness-Graphs) and [Exemplar Base](https://huggingface.co/datasets/zhui711/MedEinst-Exemplar-Base) outside this source tree. Check the required graph and memory files:
-
-   ```bash
-   test -d /path/to/artifacts/graphs/golden_graphs_refined_1
-   test -f /path/to/artifacts/exemplars/memory_bank/memory_bank.json
-   test -f /path/to/artifacts/exemplars/memory_bank/embeddings.npy
-   ```
-
-3. From the repository root, run the full graph-and-memory implementation:
-
-   ```bash
-   python scripts/run_ecr_agent.py \
-     --benchmark-set /path/to/test.jsonl \
-     --refined-graph-dir /path/to/artifacts/graphs/golden_graphs_refined_1 \
-     --memory-bank-dir /path/to/artifacts/exemplars/memory_bank \
-     --output-dir /path/to/online_results
-   ```
-
-See [artifacts.md](docs/artifacts.md) for the extracted layout and embedding requirements. The existing live-retrieval path handles a disease without a stored graph.
-
-The Online runner writes case-level predictions to `results_detail.jsonl` and a run summary to `inference_summary.json` under `--output-dir`. The paper defines Baseline Accuracy, Robust Accuracy, and Bias Trap Rate; metric evaluation is outside this agent package.
-
-## Full workflow: Reference Set → CGME → DCI
-
-Download `train.jsonl`, the paper's **Reference Set**, from the [MedEinst dataset repository](https://huggingface.co/datasets/zhui711/MedEinst). The included `data/medeinst_support_853.json` identifies the fixed **Balanced Seed Subset** of 853 individual control or trap records; narratives come from the Reference Set.
+The included `data/medeinst_support_853.json` preserves the fixed support selection from the paper. Download `train.jsonl` from the [Reference Set](https://huggingface.co/datasets/zhui711/MedEinst), then run:
 
 ```bash
 python scripts/run_cgme.py \
@@ -71,7 +82,7 @@ python scripts/run_cgme.py \
   --output-dir /path/to/cgme_output
 ```
 
-CGME writes raw Illness Graphs under `cgme_output/golden_graphs/` and an Exemplar Base under `cgme_output/memory_bank/`. Optional Illness Graph refinement uses the configured critic:
+Optionally refine the generated Illness Graphs:
 
 ```bash
 python scripts/refine_illness_graphs.py \
@@ -80,9 +91,11 @@ python scripts/refine_illness_graphs.py \
   --log-dir /path/to/refinement_logs
 ```
 
-For Online inference, use `--raw-graph-dir /path/to/cgme_output/golden_graphs`, optionally `--refined-graph-dir /path/to/refined_graphs`, and `--memory-bank-dir /path/to/cgme_output/memory_bank`. `scripts/prepare_support_set.py` can create a new support selection; the included manifest preserves the fixed subset. See [dataset_interface.md](docs/dataset_interface.md) for details.
+The resulting Illness Graphs and Exemplar Base can be used for online inference. See [dataset interface](docs/dataset_interface.md) and [artifact layout](docs/artifacts.md) for further details.
 
-## Citation and license
+## 📖 Citation
+
+If you use MedEinst or ECR-Agent in your research, please cite our paper:
 
 ```bibtex
 @misc{chen2026medeinstbenchmarkingeinstellungeffect,
@@ -96,4 +109,6 @@ For Online inference, use `--raw-graph-dir /path/to/cgme_output/golden_graphs`, 
 }
 ```
 
-This repository is licensed under Apache-2.0; see [LICENSE](LICENSE). The MedEinst dataset and third-party dependencies have their own terms. For questions about the project, contact [Zhongrui Zhu](mailto:zhongruizhuzz@outlook.com).
+## 📬 Contact
+
+**Zhongrui Zhu** — [zhongruizhuzz@outlook.com](mailto:zhongruizhuzz@outlook.com)
