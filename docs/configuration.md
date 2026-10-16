@@ -1,25 +1,50 @@
-# ECR-Agent configuration
+# ECR-Agent Configuration
 
-The three launchers read `config/settings.yaml` by default; use `--config /path/to/settings.yaml` to select another file. No credential belongs in the YAML. API keys come from the environment. The configured model IDs, prompts, inference parameters, critic retries, graph thresholds, and embedding dimension retain the extracted implementation values.
+Model, API, and output settings are defined in [`config/settings.yaml`](../config/settings.yaml). The CGME, Online inference, and Illness Graph refinement commands load this file by default; pass `--config /path/to/settings.yaml` to use a different configuration.
 
-| YAML section | Purpose | Default credential variable | Optional URL override |
-|---|---|---|---|
-| `api` | Base diagnostic model (`qwen3-32b`) | `ECR_BASE_API_KEY` | `ECR_BASE_URL` |
-| `critical_model` | CGME critic and graph refinement (`gpt-4o` in the checked-in config) | `OPENAI_API_KEY` | `ECR_CRITIC_URL` |
-| `embedding` | Exemplar retrieval and Online P-node matching (`text-embedding-3-small`, 1536 dimensions) | `OPENAI_API_KEY` | `ECR_EMBEDDING_URL` |
+Credentials are supplied through environment variables rather than stored in the YAML file.
 
-Each section also accepts `base_url` and `api_key_env` in YAML. A nonempty URL environment override takes precedence over `base_url`; if both are absent, the official OpenAI API is used. The base model's default `qwen3-32b` requires a compatible service, so set `ECR_BASE_URL` and `ECR_BASE_API_KEY` (or change the corresponding YAML fields). For an official OpenAI base model, set its model ID, set `api.api_key_env: OPENAI_API_KEY`, and leave `api.base_url: null`. Separate keys and URLs permit different providers for each role. The critic remains configurable: the paper names GPT-5, while the preserved checked-in model setting is `gpt-4o`.
+## Model endpoints
 
-For example, with a compatible Qwen endpoint and official OpenAI critic/embeddings:
+| YAML section | Default model | Credential environment variable | Optional endpoint override |
+| --- | --- | --- | --- |
+| `api` | `qwen3-32b` | `ECR_BASE_API_KEY` | `ECR_BASE_URL` |
+| `critical_model` | `gpt-4o` | `OPENAI_API_KEY` | `ECR_CRITIC_URL` |
+| `embedding` | `text-embedding-3-small` (1536 dimensions) | `OPENAI_API_KEY` | `ECR_EMBEDDING_URL` |
+
+Each section supports `base_url` and `api_key_env` settings. An environment endpoint override takes precedence over the section's `base_url`. If no custom URL is configured, the OpenAI API endpoint is used.
+
+The default `qwen3-32b` model requires a compatible model-serving endpoint. For example, when using a separately hosted base model and OpenAI for critic and embedding requests:
 
 ```bash
-export ECR_BASE_URL=https://your-compatible-service.example/v1
+export ECR_BASE_URL=https://your-compatible-endpoint.example/v1
 export ECR_BASE_API_KEY=your-base-model-key
 export OPENAI_API_KEY=your-openai-key
 ```
 
-These are placeholders, not issued credentials. `python-dotenv` can load a local `.env`, which is excluded by `.gitignore`.
+Adjust model IDs and endpoints to match the available services. The paper uses GPT-5 as the critic model; the example configuration defaults to `gpt-4o` and can be changed in `critical_model.model_name`.
 
-Paths in YAML are resolved relative to the YAML file. CLI paths are resolved relative to the caller's current directory; absolute paths also work. Offline output paths are `offline_training.golden_graph_dir`, `memory_bank_dir`, and `log_dir`, or a single `run_cgme.py --output-dir` override. Online paths are `online_inference.golden_graph_dir` (raw), `refined_graph_dir`, `memory_bank_dir`, and `output_dir`; corresponding CLI overrides are `--raw-graph-dir`, `--refined-graph-dir`, `--memory-bank-dir`, and `--output-dir`. Graph refinement accepts `--input-dir`, `--output-dir`, and `--log-dir`.
+A local `.env` file may also be loaded through `python-dotenv`; it should not be committed to the repository.
 
-CGME requires `--reference-set` and defaults to `data/medeinst_support_853.json`; Online inference requires `--benchmark-set`. See [dataset_interface.md](dataset_interface.md). PubMed uses `PUBMED_EMAIL` and optional `PUBMED_API_KEY`; OpenTargets uses its existing public endpoint. This stage did not contact any external service.
+## Data and output paths
+
+Relative paths in YAML are resolved relative to the YAML file. Relative CLI paths are resolved from the current working directory; absolute paths are also supported.
+
+| Use | Configuration / CLI |
+| --- | --- |
+| Reference Set for CGME | `run_cgme.py --reference-set` |
+| Fixed support manifest | `run_cgme.py --support-manifest` (default `data/medeinst_support_853.json`) |
+| Benchmark Test Set | `run_ecr_agent.py --benchmark-set` |
+| Raw Illness Graphs | `online_inference.golden_graph_dir` / `--raw-graph-dir` |
+| Refined Illness Graphs | `online_inference.refined_graph_dir` / `--refined-graph-dir` |
+| Exemplar Base | `online_inference.memory_bank_dir` / `--memory-bank-dir` |
+| Online results | `online_inference.output_dir` / `--output-dir` |
+| Offline CGME outputs | `offline_training.golden_graph_dir`, `memory_bank_dir`, `log_dir`; or `run_cgme.py --output-dir` |
+
+Graph refinement supports `--input-dir`, `--output-dir`, and `--log-dir`.
+
+## External knowledge sources
+
+PubMed retrieval uses `PUBMED_EMAIL` and optionally `PUBMED_API_KEY`. OpenTargets retrieval uses its configured public service endpoint.
+
+For data formats and artifact directories, see [Dataset Interface](dataset_interface.md) and [Artifacts](artifacts.md).

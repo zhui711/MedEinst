@@ -1,47 +1,66 @@
-# MedEinst dataset interface
+# MedEinst Dataset Interface
 
-## Three distinct resources
+The [MedEinst dataset](https://huggingface.co/datasets/zhui711/MedEinst) provides a **Reference Set** for support-case selection and a **Benchmark Test Set** for diagnostic evaluation. ECR-Agent also includes a fixed 853-record support manifest used by Offline CGME.
 
-| Paper term | Public split or release file | Use |
-|---|---|---|
-| Reference Set | `zhui711/MedEinst` `train` split (`train.jsonl`) | Training resource; CGME resolves its fixed support records here. The dataset card describes 10,689 pairs / 21,378 rows. |
-| MedEinst Benchmark Test Set | `zhui711/MedEinst` `test` split (`test.jsonl`) | Online inference and external evaluation; the card describes 5,383 pairs / 10,766 rows. |
-| Balanced Seed Subset, `medeinst_support_853` | `data/medeinst_support_853.json` | Fixed ordered selection of **853 individual records**, comprising 522 control and 331 trap variants over 46 disease IDs. It contains identities and labels, not narratives. |
+## Data resources
 
-The public dataset is [zhui711/MedEinst](https://huggingface.co/datasets/zhui711/MedEinst). Download its `train.jsonl` and `test.jsonl` separately from the source release. The old internal folder names are not required. Use the included fixed manifest for the published support selection; fresh seed-42 sampling produces a separate candidate manifest.
+| Resource | File | Description |
+| --- | --- | --- |
+| Reference Set | `train.jsonl` | 10,689 counterfactual case pairs used as a training resource. |
+| Benchmark Test Set | `test.jsonl` | 5,383 counterfactual pairs spanning 49 diseases. |
+| Balanced Seed Subset | [`data/medeinst_support_853.json`](../data/medeinst_support_853.json) | 853 individual records selected for Offline CGME: 522 control and 331 trap variants across 46 disease IDs. |
 
-## Input schema and pairing
+The fixed support manifest stores case identities and labels, not patient narratives. The `run_cgme.py` command resolves those records against the Reference Set in manifest order.
 
-Each public JSONL line is an object with `case_id`, `case_type` (`control` or `trap`), `narrative`, and `ground_truth`; `age` and `sex` are accepted but are not passed separately to Phase 1 because they are already represented in the unchanged narrative. The two variants share a `case_id` and have distinct ground-truth diagnoses. `src/data/medeinst_adapter.py` groups by `(case_id, case_type)`, rejects duplicates and incomplete pairs, maps disease names to the original two-digit IDs, and leaves narrative text untouched. The agent and output keep the historical internal variant names `control_case` and `trap_case`.
+## Record format
 
-A directory of `case_*/final_benchmark_pair.json` files remains an optional compatibility input for the same `--reference-set` and `--benchmark-set` options. Its two objects must have `narrative` and `ground_truth`. Both formats yield the same in-memory `CasePair` records. The release does not materialize a second dataset copy.
+Each JSONL record contains these fields:
 
-The fixed manifest is resolved in its original order by `(case_id, case_type, ground_truth_id)`. A missing or differently labeled public row raises an error listing its exact identity; no substitute is sampled. The former `config/offline_train_list.json` path-bearing copy has been removed from runtime. Its origin and the Stage 1 comparison are preserved in `docs/source_map.md`.
+| Field | Meaning |
+| --- | --- |
+| `case_id` | Identifier shared by the paired control and trap variants |
+| `case_type` | `control` or `trap` |
+| `narrative` | Clinical case description provided to the agent |
+| `ground_truth` | Correct diagnosis for the corresponding variant |
 
-## Commands
+The adapter also accepts optional `age` and `sex` fields. Control and trap variants are paired by `case_id` while remaining distinct observations. Disease names are mapped to the corresponding disease IDs, and the clinical narratives are preserved as provided.
 
-Run from the release root after installing dependencies and configuring the required services:
+As an alternative to JSONL, the interface accepts a directory of paired files in the `case_*/final_benchmark_pair.json` format.
+
+## Running with the public dataset
+
+Offline CGME with the fixed support set:
 
 ```bash
-python scripts/run_cgme.py --reference-set /path/to/train.jsonl \
+python scripts/run_cgme.py \
+  --reference-set /path/to/train.jsonl \
   --support-manifest data/medeinst_support_853.json
+```
 
-python scripts/run_ecr_agent.py --benchmark-set /path/to/test.jsonl \
+Online ECR-Agent inference:
+
+```bash
+python scripts/run_ecr_agent.py \
+  --benchmark-set /path/to/test.jsonl \
   --refined-graph-dir /path/to/refined_graphs \
   --memory-bank-dir /path/to/memory_bank
 ```
 
-`--limit N` and `--case-ids id1,id2` select a pair subset in Online inference. `--skip-control` and `--skip-trap` select the variants to run. The Offline runner retains serial/concurrent options, worker count, batch size, output directory and checkpoint resume. Its original resume bookkeeping is unchanged.
+The Online command also accepts `--limit N`, `--case-ids id1,id2`, `--skip-control`, and `--skip-trap` to select cases or variants. The Offline command supports serial and concurrent processing options.
 
-Optional **new resampling**, distinct from the fixed paper-support path:
+## Optional support-set sampling
+
+To construct a new candidate support manifest rather than use the fixed selection:
 
 ```bash
-python scripts/prepare_support_set.py --reference-set /path/to/train.jsonl \
-  --output /path/to/candidate_support.json --seed 42 --cap 20
+python scripts/prepare_support_set.py \
+  --reference-set /path/to/train.jsonl \
+  --output /path/to/candidate_support.json \
+  --seed 42 --cap 20
 ```
 
-The command samples individual case variants per disease, shuffles with seed 42, caps each disease at 20, writes a path-free candidate manifest, and compares it with the fixed 853-record file. It refuses to overwrite that fixed file. Its candidate is not silently substituted into `run_cgme.py`.
+This command samples individual case variants with a per-pathology cap and writes a separate candidate manifest. It does not replace the fixed `medeinst_support_853.json` selection.
 
-The Online runner writes `results_detail.jsonl`, `inference_summary.json`, and per-case graph JSON files. Benchmark metric evaluation is outside this core agent release; the paper defines the evaluation protocol.
+Online inference produces `results_detail.jsonl`, `inference_summary.json`, and per-case graph output files. The benchmark evaluation metrics are defined in the [paper](https://arxiv.org/abs/2601.06636).
 
-Model and artifact settings are described in [configuration.md](configuration.md) and [artifacts.md](artifacts.md).
+For model configuration and knowledge artifacts, see [Configuration](configuration.md) and [Artifacts](artifacts.md).

@@ -1,37 +1,48 @@
-# ECR-Agent architecture and source map
+# ECR-Agent Architecture
 
-The [paper](https://arxiv.org/abs/2601.06636) names two connected components. **Dynamic Causal Inference (DCI)** diagnoses a case; **Critic-Driven Graph & Memory Evolution (CGME)** runs DCI on support cases, critiques unsuccessful outcomes, and evolves reusable Illness Graphs and an Exemplar Base. Historical class names are retained where they are part of the implementation.
+[ECR-Agent](https://arxiv.org/abs/2601.06636) combines **Dynamic Causal Inference (DCI)** with **Critic-Driven Graph & Memory Evolution (CGME)**. CGME builds reusable medical knowledge and experience from support cases. DCI uses these resources to reason about new clinical cases.
 
-| Paper component | Release implementation | Role |
-|---|---|---|
-| Dual-Pathway Perception | `Phase1Manager`, `phase1_perception.py`, `phase1_trackB.py` | Generates differential candidates and an objective problem representation with patient observations. |
-| Causal Graph Initialization | `MedicalGraph`, `Phase2GraphReasoning`, `Phase2HybridEngine`, `GoldenGraphLoader` | Creates disease, patient, and knowledge nodes; Online inference can initialize from a refined or raw Illness Graph. |
-| Forward Causal Reasoning | Both Phase 2 engines; `PubMedTool`, `OpenTargetsTool`; knowledge extraction prompts | Retrieves and connects Pivot and General evidence to candidate diseases. |
-| Backward Causal Reasoning | Both Phase 2 engines; `MedicalGraph.create_shadow_p_node` | Checks expected evidence and represents unmatched observations as Shadow nodes. |
-| Evidence Audit | `graph_tools.py`, Offline `JudgeAgent`, Online `MemoryAugmentedJudge` | Scores and summarizes graphs; the Online judge also retrieves exemplars before final diagnosis. |
-| Critic-driven evolution | `OfflineTrainer`, `ConcurrentOfflineTrainer`, `CriticalModelAgent` | Runs support cases, judges outcomes, and retries unsuccessful trajectories with critic feedback. |
-| Illness Graph evolution | `AggregationManager`, `CanonicalGraph`, `scripts/refine_illness_graphs.py` | Aggregates validated cases by disease and optionally refines knowledge nodes. |
-| Exemplar Base | `MemoryBankManager`, `EmbeddingClient` | Stores compact validated-case records and their aligned embeddings for retrieval. |
+## Components
 
-## Execution paths
+| Component | Main implementation | Responsibility |
+| --- | --- | --- |
+| Dual-Pathway Perception | `Phase1Manager`, `phase1_perception.py`, `phase1_trackB.py` | Generates differential diagnosis candidates and a structured problem representation. |
+| Causal Graph Initialization | `MedicalGraph`, `Phase2HybridEngine`, `GoldenGraphLoader` | Initializes patient-specific causal graphs using observations, candidate diagnoses, and available Illness Graphs. |
+| Forward Causal Reasoning | `Phase2GraphReasoning`, `Phase2HybridEngine`, `PubMedTool`, `OpenTargetsTool` | Retrieves and connects medical evidence to candidate diseases. |
+| Backward Causal Reasoning | Phase 2 reasoning modules, `MedicalGraph.create_shadow_p_node` | Checks expected evidence and represents unmatched observations with Shadow nodes. |
+| Evidence Audit | `graph_tools.py`, `JudgeAgent`, `MemoryAugmentedJudge` | Scores and summarizes graph evidence; online inference also retrieves similar exemplars. |
+| Critic-Driven Evolution | `OfflineTrainer`, `ConcurrentOfflineTrainer`, `CriticalModelAgent` | Evaluates and refines reasoning on support cases through critic feedback. |
+| Illness Graph Evolution | `AggregationManager`, `CanonicalGraph`, `scripts/refine_illness_graphs.py` | Aggregates validated evidence by disease and supports optional graph refinement. |
+| Exemplar Base | `MemoryBankManager`, `EmbeddingClient` | Maintains case records and embeddings for experience retrieval. |
+
+## Offline CGME
 
 ```text
-Reference Set + fixed 853-record manifest
-  → scripts/run_cgme.py → OfflineTrainer
-  → Phase1Manager → Phase2GraphReasoning → JudgeAgent
-  → CriticalModelAgent when correction is needed
-  → AggregationManager + MemoryBankManager
-  → raw Illness Graphs + Exemplar Base
-  → optional scripts/refine_illness_graphs.py → refined Illness Graphs
-
-Benchmark Test Set + prebuilt Illness Graphs + Exemplar Base
-  → scripts/run_ecr_agent.py
-  → Phase1Manager → Phase2HybridEngine
-  → GoldenGraphLoader + live PubMed/OpenTargets reasoning
-  → graph scoring and summary → MemoryAugmentedJudge
-  → case-level predictions and graph outputs
+Reference Set + 853-case support manifest
+  → scripts/run_cgme.py
+  → Dual-Pathway Perception
+  → Phase2GraphReasoning (live evidence)
+  → JudgeAgent and critic-guided refinement
+  → Illness Graph aggregation + Exemplar Base
+  → optional scripts/refine_illness_graphs.py
 ```
 
-Offline reasoning uses `Phase2GraphReasoning` because it creates the initial graphs. Online reasoning uses `Phase2HybridEngine` to incorporate prebuilt graphs while retaining live evidence retrieval. They share some reasoning functions but are not interchangeable. The Online loader prefers `*_Refined_GG.json`, then `*_GG.json`; a disease without a prebuilt graph follows the existing live-retrieval path. `MedicalGraph` represents patient observations as Present, Absent, or Missing; its knowledge nodes include Pivot and General evidence, while Shadow nodes record expected but unmatched observations.
+Offline CGME builds Illness Graphs from support cases rather than requiring prebuilt disease graphs. Its successful cases contribute to the graph collection and Exemplar Base.
 
-The paper describes an Exemplar Base of validated reasoning trajectories. The released implementation serializes **compact case records and embeddings**, not full model transcripts. This is the original source representation; see [artifacts.md](artifacts.md). The exact historical command that produced the paper's numerical results was not recovered. This release retains the approved full graph-and-memory implementation without claiming that exact command provenance.
+## Online DCI
+
+```text
+Benchmark cases + prebuilt Illness Graphs + Exemplar Base
+  → scripts/run_ecr_agent.py
+  → Dual-Pathway Perception
+  → Phase2HybridEngine (graph initialization + live evidence)
+  → Forward and Backward Causal Reasoning
+  → graph scoring and evidence audit
+  → final diagnosis and case-level outputs
+```
+
+Online DCI uses the generated Illness Graphs to initialize reasoning while continuing to retrieve relevant evidence. The graph loader prefers `*_Refined_GG.json` files and can use raw `*_GG.json` files when available. If a candidate disease has no prebuilt Illness Graph, the hybrid reasoning path can continue with live evidence retrieval.
+
+Patient observations are represented as **Present**, **Absent**, or **Missing**. Knowledge nodes include **Pivot** and **General** evidence, while **Shadow** nodes capture expected but unmatched observations. The Exemplar Base contains compact case records and aligned embeddings used for retrieval.
+
+For the associated input formats, model settings, and artifact layouts, see [Dataset Interface](dataset_interface.md), [Configuration](configuration.md), and [Artifacts](artifacts.md).
